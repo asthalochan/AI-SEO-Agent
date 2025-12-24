@@ -1,0 +1,4605 @@
+[
+  {
+    "url": "https://developer.mozilla.org/en-US",
+    "is_indexable": true,
+    "seo_eligible": false,
+    "content_type": "content",
+    "page_intent": "article",
+    "word_count": 41,
+    "reading_time_minutes": 0.2,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 4,
+      "h3_count": 8,
+      "heading_depth_score": 1.0
+    },
+    "content_depth": {
+      "depth_score": 0.33,
+      "thin_reason": "below_content_threshold_600"
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "4b2189947724",
+      "is_cluster_leader": true,
+      "cluster_size": 2
+    },
+    "quality_score": 0.4,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "not_seo_eligible",
+        "severity": "high",
+        "fix": "Improve content quality or remove SEO exclusions"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Moderate internal authority",
+      "Leader of medium cluster (hub page)",
+      "Below recommended word count",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 954,
+    "reading_time_minutes": 4.2,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 6,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.75,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "3780fe697bcd",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.58,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "expand",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "reference",
+    "word_count": 4557,
+    "reading_time_minutes": 20.3,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 19,
+      "h3_count": 0,
+      "heading_depth_score": 0.63
+    },
+    "content_depth": {
+      "depth_score": 0.89,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "70c546a33860",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.71,
+    "quality_grade": "B",
+    "c_subclass": null,
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "ignore",
+    "priority": "low"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 2092,
+    "reading_time_minutes": 9.3,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 7,
+      "h3_count": 0,
+      "heading_depth_score": 0.57
+    },
+    "content_depth": {
+      "depth_score": 0.87,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "2d641698cb50",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.65,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "reference",
+    "word_count": 2890,
+    "reading_time_minutes": 12.8,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 7,
+      "h3_count": 0,
+      "heading_depth_score": 0.49
+    },
+    "content_depth": {
+      "depth_score": 0.85,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "a96fe48ea8b8",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.69,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "index",
+    "word_count": 216,
+    "reading_time_minutes": 1.0,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 1,
+      "h3_count": 0,
+      "heading_depth_score": 0.67
+    },
+    "content_depth": {
+      "depth_score": 0.45,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "d02734e12864",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.45,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Below recommended word count",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 2965,
+    "reading_time_minutes": 13.2,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 7,
+      "h3_count": 4,
+      "heading_depth_score": 0.54
+    },
+    "content_depth": {
+      "depth_score": 0.86,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "2192931b23de",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.64,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Cheatsheet",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 438,
+    "reading_time_minutes": 1.9,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 4,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.58,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "640efea289af",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.5,
+    "quality_grade": "C",
+    "c_subclass": "C2",
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Sufficient content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "ignore",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Date_and_time_formats",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 2818,
+    "reading_time_minutes": 12.5,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 12,
+      "h3_count": 7,
+      "heading_depth_score": 0.73
+    },
+    "content_depth": {
+      "depth_score": 0.92,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "4041db3f7548",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.67,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "index",
+    "word_count": 671,
+    "reading_time_minutes": 3.0,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 1,
+      "h3_count": 0,
+      "heading_depth_score": 0.42
+    },
+    "content_depth": {
+      "depth_score": 0.63,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "2815892b32ab",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.56,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 628,
+    "reading_time_minutes": 2.8,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 6,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.7,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "71f1cfecf386",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.56,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "expand",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/MathML",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 700,
+    "reading_time_minutes": 3.1,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 11,
+      "h3_count": 2,
+      "heading_depth_score": 0.81
+    },
+    "content_depth": {
+      "depth_score": 0.75,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "cdb1e1c7074b",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.58,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "expand",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/XML",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 179,
+    "reading_time_minutes": 0.8,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 1,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.42,
+      "thin_reason": "below_docs_threshold_300"
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "c06c6c6cafb0",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.42,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Below recommended word count",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 615,
+    "reading_time_minutes": 2.7,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 8,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.7,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "48474e8ec22c",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.56,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "expand",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "reference",
+    "word_count": 1601,
+    "reading_time_minutes": 7.1,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 6,
+      "h3_count": 12,
+      "heading_depth_score": 0.88
+    },
+    "content_depth": {
+      "depth_score": 0.9,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "89200a27e8a2",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.72,
+    "quality_grade": "B",
+    "c_subclass": null,
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "ignore",
+    "priority": "low"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "reference",
+    "word_count": 165,
+    "reading_time_minutes": 0.7,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 6,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.41,
+      "thin_reason": "below_docs_threshold_300"
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "3fe140d9f053",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.43,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Below recommended word count",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "reference",
+    "word_count": 308,
+    "reading_time_minutes": 1.4,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 6,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.54,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "093479b43fdf",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.5,
+    "quality_grade": "C",
+    "c_subclass": "C2",
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Sufficient content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "ignore",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values",
+    "is_indexable": true,
+    "seo_eligible": false,
+    "content_type": "docs",
+    "page_intent": "reference",
+    "word_count": 136,
+    "reading_time_minutes": 0.6,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 5,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.38,
+      "thin_reason": "below_docs_threshold_300"
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "7dbb5a322678",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.41,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "not_seo_eligible",
+        "severity": "high",
+        "fix": "Improve content quality or remove SEO exclusions"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Below recommended word count",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "index",
+    "word_count": 2412,
+    "reading_time_minutes": 10.7,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 9,
+      "h3_count": 38,
+      "heading_depth_score": 0.9
+    },
+    "content_depth": {
+      "depth_score": 0.97,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "1a947a8f50fb",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.76,
+    "quality_grade": "B",
+    "c_subclass": null,
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "ignore",
+    "priority": "low"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Box_model/Introduction",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 542,
+    "reading_time_minutes": 2.4,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 7,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.62,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "b1639d16c634",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.52,
+    "quality_grade": "C",
+    "c_subclass": "C2",
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "ignore",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Animations/Using",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 2260,
+    "reading_time_minutes": 10.0,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 8,
+      "h3_count": 6,
+      "heading_depth_score": 0.68
+    },
+    "content_depth": {
+      "depth_score": 0.9,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "bca3772469b0",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.66,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 3152,
+    "reading_time_minutes": 14.0,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 10,
+      "h3_count": 12,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.91,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "7895e2b49318",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.67,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Applying_color",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 1853,
+    "reading_time_minutes": 8.2,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 6,
+      "h3_count": 5,
+      "heading_depth_score": 0.66
+    },
+    "content_depth": {
+      "depth_score": 0.88,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "2c873221e8e6",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.65,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "index",
+    "word_count": 2940,
+    "reading_time_minutes": 13.1,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 3,
+      "h3_count": 0,
+      "heading_depth_score": 0.38
+    },
+    "content_depth": {
+      "depth_score": 0.81,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "8c4b3650ca02",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.67,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Column_layouts",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 729,
+    "reading_time_minutes": 3.2,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 5,
+      "h3_count": 3,
+      "heading_depth_score": 0.85
+    },
+    "content_depth": {
+      "depth_score": 0.76,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "b696d394a4d6",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.59,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "expand",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Center_an_element",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 296,
+    "reading_time_minutes": 1.3,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 7,
+      "h3_count": 6,
+      "heading_depth_score": 1.0
+    },
+    "content_depth": {
+      "depth_score": 0.62,
+      "thin_reason": "below_docs_threshold_300"
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "142cb13163ec",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.52,
+    "quality_grade": "C",
+    "c_subclass": "C2",
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Below recommended word count",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "ignore",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Card",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 628,
+    "reading_time_minutes": 2.8,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 8,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.7,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "68e798578e1f",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.56,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "expand",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 364,
+    "reading_time_minutes": 1.6,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 4,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.56,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "59d775d4e4f9",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.49,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Sufficient content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 847,
+    "reading_time_minutes": 3.8,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 5,
+      "h3_count": 3,
+      "heading_depth_score": 0.83
+    },
+    "content_depth": {
+      "depth_score": 0.78,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "a0b24c88bb0b",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.6,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "expand",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 464,
+    "reading_time_minutes": 2.1,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 3,
+      "h3_count": 13,
+      "heading_depth_score": 1.0
+    },
+    "content_depth": {
+      "depth_score": 0.68,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "d4b09cb3e361",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.55,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "expand",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 1205,
+    "reading_time_minutes": 5.4,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 6,
+      "h3_count": 15,
+      "heading_depth_score": 1.0
+    },
+    "content_depth": {
+      "depth_score": 0.88,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "754b2ac3abac",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.65,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 929,
+    "reading_time_minutes": 4.1,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 6,
+      "h3_count": 5,
+      "heading_depth_score": 0.9
+    },
+    "content_depth": {
+      "depth_score": 0.81,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "dcb7aebc731d",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.61,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "expand",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 1863,
+    "reading_time_minutes": 8.3,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 7,
+      "h3_count": 10,
+      "heading_depth_score": 0.8
+    },
+    "content_depth": {
+      "depth_score": 0.92,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "eae0a6ad021c",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.67,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "index",
+    "word_count": 550,
+    "reading_time_minutes": 2.4,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 9,
+      "h3_count": 33,
+      "heading_depth_score": 1.0
+    },
+    "content_depth": {
+      "depth_score": 0.71,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "4242d64b6940",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.61,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 1667,
+    "reading_time_minutes": 7.4,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 5,
+      "h3_count": 7,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.86,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "df1755d4ae31",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.64,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 1481,
+    "reading_time_minutes": 6.6,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 10,
+      "h3_count": 10,
+      "heading_depth_score": 0.95
+    },
+    "content_depth": {
+      "depth_score": 0.91,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "5ae17be0a462",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.67,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_objects",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 2350,
+    "reading_time_minutes": 10.4,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 9,
+      "h3_count": 8,
+      "heading_depth_score": 0.73
+    },
+    "content_depth": {
+      "depth_score": 0.92,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "9916cfb51f3c",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.67,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_classes",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 3300,
+    "reading_time_minutes": 14.7,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 12,
+      "h3_count": 3,
+      "heading_depth_score": 0.62
+    },
+    "content_depth": {
+      "depth_score": 0.89,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "83ebf74ba5e3",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.66,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "index",
+    "word_count": 391,
+    "reading_time_minutes": 1.7,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 22,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.57,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "d2903a3afaff",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.52,
+    "quality_grade": "C",
+    "c_subclass": "C2",
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Sufficient content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "ignore",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 1962,
+    "reading_time_minutes": 8.7,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 4,
+      "h3_count": 48,
+      "heading_depth_score": 0.76
+    },
+    "content_depth": {
+      "depth_score": 0.92,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "ba7df5604570",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.67,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 643,
+    "reading_time_minutes": 2.9,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 5,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.71,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "8eb951afe054",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.56,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "expand",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 990,
+    "reading_time_minutes": 4.4,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 6,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.76,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "527783b7b7f6",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.59,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "expand",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 1701,
+    "reading_time_minutes": 7.6,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 5,
+      "h3_count": 2,
+      "heading_depth_score": 0.58
+    },
+    "content_depth": {
+      "depth_score": 0.83,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "8693c48b8ec1",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.62,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "expand",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/URI",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 330,
+    "reading_time_minutes": 1.5,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 6,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.55,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "7a8eeab33040",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.48,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Sufficient content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 548,
+    "reading_time_minutes": 2.4,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 9,
+      "h3_count": 2,
+      "heading_depth_score": 0.84
+    },
+    "content_depth": {
+      "depth_score": 0.66,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "2885c7ae0a9f",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.54,
+    "quality_grade": "C",
+    "c_subclass": "C2",
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "ignore",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/WebAssembly",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 1015,
+    "reading_time_minutes": 4.5,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 8,
+      "h3_count": 15,
+      "heading_depth_score": 1.0
+    },
+    "content_depth": {
+      "depth_score": 0.85,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "a31b77e46a88",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.64,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/WebDriver",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 348,
+    "reading_time_minutes": 1.5,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 6,
+      "h3_count": 3,
+      "heading_depth_score": 1.0
+    },
+    "content_depth": {
+      "depth_score": 0.64,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "6dde1c44befd",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.53,
+    "quality_grade": "C",
+    "c_subclass": "C2",
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Sufficient content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "ignore",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Media",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 1222,
+    "reading_time_minutes": 5.4,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 5,
+      "h3_count": 2,
+      "heading_depth_score": 0.69
+    },
+    "content_depth": {
+      "depth_score": 0.79,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "4b223bc5b2cc",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.6,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "expand",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Performance",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 2648,
+    "reading_time_minutes": 11.8,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 8,
+      "h3_count": 5,
+      "heading_depth_score": 0.61
+    },
+    "content_depth": {
+      "depth_score": 0.88,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "6580738486c3",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.65,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Privacy",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "utility",
+    "word_count": 3939,
+    "reading_time_minutes": 17.5,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 10,
+      "h3_count": 11,
+      "heading_depth_score": 0.61
+    },
+    "content_depth": {
+      "depth_score": 0.88,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "89fd281ba549",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.65,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Security",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 2882,
+    "reading_time_minutes": 12.8,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 7,
+      "h3_count": 10,
+      "heading_depth_score": 0.62
+    },
+    "content_depth": {
+      "depth_score": 0.89,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "56217db1dc5a",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.66,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 1189,
+    "reading_time_minutes": 5.3,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 7,
+      "h3_count": 3,
+      "heading_depth_score": 0.79
+    },
+    "content_depth": {
+      "depth_score": 0.82,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "7a2006b802ce",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.62,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "expand",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 856,
+    "reading_time_minutes": 3.8,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 8,
+      "h3_count": 1,
+      "heading_depth_score": 0.74
+    },
+    "content_depth": {
+      "depth_score": 0.75,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "550f130e17ec",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.58,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "expand",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 377,
+    "reading_time_minutes": 1.7,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 5,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.56,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "600257f26b76",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.49,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Sufficient content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 773,
+    "reading_time_minutes": 3.4,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 4,
+      "h3_count": 1,
+      "heading_depth_score": 0.75
+    },
+    "content_depth": {
+      "depth_score": 0.74,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "f015a6fe0af0",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.58,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "expand",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/curriculum",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "content",
+    "page_intent": "article",
+    "word_count": 567,
+    "reading_time_minutes": 2.5,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 5,
+      "h3_count": 4,
+      "heading_depth_score": 0.96
+    },
+    "content_depth": {
+      "depth_score": 0.64,
+      "thin_reason": "below_content_threshold_600"
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "da68103f588d",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.53,
+    "quality_grade": "C",
+    "c_subclass": "C2",
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Below recommended word count",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "ignore",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 1509,
+    "reading_time_minutes": 6.7,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 7,
+      "h3_count": 0,
+      "heading_depth_score": 0.67
+    },
+    "content_depth": {
+      "depth_score": 0.83,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "552b6fd7946f",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.62,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "expand",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 1409,
+    "reading_time_minutes": 6.3,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 7,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.82,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "fc15aa442696",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.62,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "expand",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 995,
+    "reading_time_minutes": 4.4,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 7,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.76,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "7f339b7e0cc4",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.59,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "expand",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 1621,
+    "reading_time_minutes": 7.2,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 6,
+      "h3_count": 0,
+      "heading_depth_score": 0.6
+    },
+    "content_depth": {
+      "depth_score": 0.82,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "9b5457633268",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.62,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "expand",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/play",
+    "is_indexable": true,
+    "seo_eligible": false,
+    "content_type": "content",
+    "page_intent": "article",
+    "word_count": 0,
+    "reading_time_minutes": 0.0,
+    "heading_structure": {
+      "h1_count": 0,
+      "h2_count": 0,
+      "h3_count": 0,
+      "heading_depth_score": 0.0
+    },
+    "content_depth": {
+      "depth_score": 0.0,
+      "thin_reason": "below_content_threshold_600"
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "9f997bbc8403",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.21,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "not_seo_eligible",
+        "severity": "high",
+        "fix": "Improve content quality or remove SEO exclusions"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Below recommended word count",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/observatory",
+    "is_indexable": true,
+    "seo_eligible": false,
+    "content_type": "content",
+    "page_intent": "article",
+    "word_count": 131,
+    "reading_time_minutes": 0.6,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 1,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.3,
+      "thin_reason": "below_content_threshold_600"
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "2182476c7c13",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.36,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "not_seo_eligible",
+        "severity": "high",
+        "fix": "Improve content quality or remove SEO exclusions"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Below recommended word count",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-image_generator",
+    "is_indexable": true,
+    "seo_eligible": false,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 59,
+    "reading_time_minutes": 0.3,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 3,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.28,
+      "thin_reason": "below_docs_threshold_300"
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "f59efb462dde",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.35,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "not_seo_eligible",
+        "severity": "high",
+        "fix": "Improve content quality or remove SEO exclusions"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Below recommended word count",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-radius_generator",
+    "is_indexable": true,
+    "seo_eligible": false,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 59,
+    "reading_time_minutes": 0.3,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 3,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.28,
+      "thin_reason": "below_docs_threshold_300"
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "2d4b13b318a3",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.35,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "not_seo_eligible",
+        "severity": "high",
+        "fix": "Improve content quality or remove SEO exclusions"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Below recommended word count",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 356,
+    "reading_time_minutes": 1.6,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 3,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.55,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "a84d6a63ec61",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.48,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Sufficient content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_format_converter",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 176,
+    "reading_time_minutes": 0.8,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 4,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.42,
+      "thin_reason": "below_docs_threshold_300"
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "74378e20ad03",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.42,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Below recommended word count",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_mixer",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 167,
+    "reading_time_minutes": 0.7,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 3,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.41,
+      "thin_reason": "below_docs_threshold_300"
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "2540a97d8411",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.41,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Below recommended word count",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shapes/Shape_generator",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 170,
+    "reading_time_minutes": 0.8,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 1,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.41,
+      "thin_reason": "below_docs_threshold_300"
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "5228b4c4e5f9",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.41,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Below recommended word count",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/about",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "content",
+    "page_intent": "utility",
+    "word_count": 3210,
+    "reading_time_minutes": 14.3,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 3,
+      "h3_count": 0,
+      "heading_depth_score": 0.37
+    },
+    "content_depth": {
+      "depth_score": 0.81,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "6497ffa41ad7",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.61,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "expand",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/advertising",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "content",
+    "page_intent": "article",
+    "word_count": 294,
+    "reading_time_minutes": 1.3,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 4,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.41,
+      "thin_reason": "below_content_threshold_600"
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "78e75005184c",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.41,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Below recommended word count",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/community",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "content",
+    "page_intent": "article",
+    "word_count": 704,
+    "reading_time_minutes": 3.1,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 8,
+      "h3_count": 6,
+      "heading_depth_score": 1.0
+    },
+    "content_depth": {
+      "depth_score": 0.7,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "5586a4637661",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.56,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Sufficient content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "expand",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/blog",
+    "is_indexable": true,
+    "seo_eligible": false,
+    "content_type": "content",
+    "page_intent": "article",
+    "word_count": 35,
+    "reading_time_minutes": 0.2,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 69,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.23,
+      "thin_reason": "below_content_threshold_600"
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "72c10423ec1a",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.33,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "not_seo_eligible",
+        "severity": "high",
+        "fix": "Improve content quality or remove SEO exclusions"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Below recommended word count",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/blog/mdn-turns-20",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "content",
+    "page_intent": "article",
+    "word_count": 466,
+    "reading_time_minutes": 2.1,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 5,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.51,
+      "thin_reason": "below_content_threshold_600"
+    },
+    "internal_authority": {
+      "inlinks": 2,
+      "link_score": 0.1,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "68c04b32d68b",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.41,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Low internal authority",
+      "Leader of small cluster",
+      "Below recommended word count",
+      "Few internal links"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Resource_management",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 2626,
+    "reading_time_minutes": 11.7,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 9,
+      "h3_count": 2,
+      "heading_depth_score": 0.6
+    },
+    "content_depth": {
+      "depth_score": 0.88,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 13,
+      "link_score": 0.65,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "1c61458e0ce2",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.76,
+    "quality_grade": "B",
+    "c_subclass": null,
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth"
+    ],
+    "recommended_action": "ignore",
+    "priority": "low"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/blog/launching-new-front-end",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "content",
+    "page_intent": "article",
+    "word_count": 284,
+    "reading_time_minutes": 1.3,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 5,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.4,
+      "thin_reason": "below_content_threshold_600"
+    },
+    "internal_authority": {
+      "inlinks": 2,
+      "link_score": 0.1,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "9dc0ed13d6ce",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.35,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Low internal authority",
+      "Leader of small cluster",
+      "Below recommended word count",
+      "Few internal links"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/blog/image-formats-pixels-graphics",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "content",
+    "page_intent": "article",
+    "word_count": 3848,
+    "reading_time_minutes": 17.1,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 10,
+      "h3_count": 9,
+      "heading_depth_score": 0.6
+    },
+    "content_depth": {
+      "depth_score": 0.88,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 2,
+      "link_score": 0.1,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "8da98e403d0d",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.59,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Low internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "Few internal links"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/blog/color-models-humans-devices",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "content",
+    "page_intent": "article",
+    "word_count": 3955,
+    "reading_time_minutes": 17.6,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 11,
+      "h3_count": 4,
+      "heading_depth_score": 0.56
+    },
+    "content_depth": {
+      "depth_score": 0.87,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 3,
+      "link_score": 0.15,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "156592206a42",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.6,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Low internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/blog/h1-element-styles",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "content",
+    "page_intent": "article",
+    "word_count": 825,
+    "reading_time_minutes": 3.7,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 8,
+      "h3_count": 3,
+      "heading_depth_score": 0.84
+    },
+    "content_depth": {
+      "depth_score": 0.68,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 2,
+      "link_score": 0.1,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "b2a6c145b85b",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.49,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Low internal authority",
+      "Leader of small cluster",
+      "Sufficient content depth",
+      "Few internal links"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/community/spotlight/shrinivass-arunachalam-balasubramanian",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "content",
+    "page_intent": "article",
+    "word_count": 521,
+    "reading_time_minutes": 2.3,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 5,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.54,
+      "thin_reason": "below_content_threshold_600"
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "6da3d2b63359",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.48,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Below recommended word count",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/",
+    "is_indexable": true,
+    "seo_eligible": false,
+    "content_type": "content",
+    "page_intent": "article",
+    "word_count": 41,
+    "reading_time_minutes": 0.2,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 4,
+      "h3_count": 8,
+      "heading_depth_score": 1.0
+    },
+    "content_depth": {
+      "depth_score": 0.33,
+      "thin_reason": "below_content_threshold_600"
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.0,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "4b2189947724",
+      "is_cluster_leader": false,
+      "cluster_size": 2
+    },
+    "quality_score": 0.27,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "not_seo_eligible",
+        "severity": "high",
+        "fix": "Improve content quality or remove SEO exclusions"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Low internal authority",
+      "Below recommended word count",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "merge",
+    "priority": "medium"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/plus",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "content",
+    "page_intent": "article",
+    "word_count": 278,
+    "reading_time_minutes": 1.2,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 7,
+      "h3_count": 6,
+      "heading_depth_score": 1.0
+    },
+    "content_depth": {
+      "depth_score": 0.49,
+      "thin_reason": "below_content_threshold_600"
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "6a92f7733688",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.45,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Below recommended word count",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/MDN/Community",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 503,
+    "reading_time_minutes": 2.2,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 4,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.61,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 1,
+      "link_score": 0.05,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "7b7f34a848e9",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.44,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Low internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "Few internal links"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 872,
+    "reading_time_minutes": 3.9,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 1,
+      "h3_count": 0,
+      "heading_depth_score": 0.39
+    },
+    "content_depth": {
+      "depth_score": 0.65,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 1,
+      "link_score": 0.05,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "262c3f5dae2d",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.46,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Low internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "Few internal links"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/discord",
+    "is_indexable": true,
+    "seo_eligible": false,
+    "content_type": "content",
+    "page_intent": "article",
+    "word_count": 15,
+    "reading_time_minutes": 0.1,
+    "heading_structure": {
+      "h1_count": 0,
+      "h2_count": 0,
+      "h3_count": 0,
+      "heading_depth_score": 0.0
+    },
+    "content_depth": {
+      "depth_score": 0.01,
+      "thin_reason": "below_content_threshold_600"
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "a9056cb7a993",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.21,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "not_seo_eligible",
+        "severity": "high",
+        "fix": "Improve content quality or remove SEO exclusions"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Below recommended word count",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/MDN/Guides",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "index",
+    "word_count": 642,
+    "reading_time_minutes": 2.9,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 11,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.71,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 2,
+      "link_score": 0.1,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "942ec21a99f9",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.59,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Low internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "Few internal links"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/MDN/Tutorials",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 1331,
+    "reading_time_minutes": 5.9,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 6,
+      "h3_count": 9,
+      "heading_depth_score": 0.91
+    },
+    "content_depth": {
+      "depth_score": 0.87,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 1,
+      "link_score": 0.05,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "d1c5984e1980",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.57,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "low_quality_score",
+        "severity": "medium",
+        "fix": "Improve content depth, add headings, increase word count"
+      }
+    ],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Low internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "Few internal links"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Glossary",
+    "is_indexable": true,
+    "seo_eligible": false,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 113,
+    "reading_time_minutes": 0.5,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 1,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.35,
+      "thin_reason": "below_docs_threshold_300"
+    },
+    "internal_authority": {
+      "inlinks": 1,
+      "link_score": 0.05,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "35f8f6b7936d",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.31,
+    "quality_grade": "D",
+    "c_subclass": null,
+    "ranking_potential": "LOW",
+    "ranking_blockers": [
+      {
+        "blocker": "not_seo_eligible",
+        "severity": "high",
+        "fix": "Improve content quality or remove SEO exclusions"
+      }
+    ],
+    "ranking_rationale": [
+      "Low content quality",
+      "Low internal authority",
+      "Leader of small cluster",
+      "Below recommended word count",
+      "Few internal links"
+    ],
+    "recommended_action": "improve",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "article",
+    "word_count": 947,
+    "reading_time_minutes": 4.2,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 5,
+      "h3_count": 5,
+      "heading_depth_score": 0.9
+    },
+    "content_depth": {
+      "depth_score": 0.81,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 0,
+      "link_score": 0.3,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "062ea29fc6e8",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.61,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Moderate internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth",
+      "No internal links (orphan)"
+    ],
+    "recommended_action": "expand",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/head",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "reference",
+    "word_count": 293,
+    "reading_time_minutes": 1.3,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 8,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.53,
+      "thin_reason": "below_docs_threshold_300"
+    },
+    "internal_authority": {
+      "inlinks": 19,
+      "link_score": 0.95,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "45741ac732b2",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.63,
+    "quality_grade": "C",
+    "c_subclass": "C2",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Strong internal authority",
+      "Leader of small cluster",
+      "Below recommended word count"
+    ],
+    "recommended_action": "ignore",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/title",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "reference",
+    "word_count": 705,
+    "reading_time_minutes": 3.1,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 10,
+      "h3_count": 2,
+      "heading_depth_score": 0.81
+    },
+    "content_depth": {
+      "depth_score": 0.75,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 19,
+      "link_score": 0.95,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "f6a8195ba6a1",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.76,
+    "quality_grade": "B",
+    "c_subclass": null,
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Strong internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth"
+    ],
+    "recommended_action": "ignore",
+    "priority": "low"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/body",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "reference",
+    "word_count": 780,
+    "reading_time_minutes": 3.5,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 8,
+      "h3_count": 3,
+      "heading_depth_score": 0.84
+    },
+    "content_depth": {
+      "depth_score": 0.77,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 19,
+      "link_score": 0.95,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "6b0bfcec67e1",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.77,
+    "quality_grade": "B",
+    "c_subclass": null,
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Strong internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth"
+    ],
+    "recommended_action": "ignore",
+    "priority": "low"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/header",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "reference",
+    "word_count": 461,
+    "reading_time_minutes": 2.0,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 11,
+      "h3_count": 3,
+      "heading_depth_score": 0.94
+    },
+    "content_depth": {
+      "depth_score": 0.66,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 19,
+      "link_score": 0.95,
+      "is_hub": false
+    },
+    "cluster_context": {
+      "cluster_id": "13a41274c201",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.71,
+    "quality_grade": "B",
+    "c_subclass": null,
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Strong internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth"
+    ],
+    "recommended_action": "ignore",
+    "priority": "low"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/footer",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "reference",
+    "word_count": 365,
+    "reading_time_minutes": 1.6,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 11,
+      "h3_count": 0,
+      "heading_depth_score": 0.7
+    },
+    "content_depth": {
+      "depth_score": 0.56,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 20,
+      "link_score": 1.0,
+      "is_hub": true
+    },
+    "cluster_context": {
+      "cluster_id": "0b75d80592d7",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.66,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Strong internal authority",
+      "Leader of small cluster",
+      "Sufficient content depth"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/article",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "reference",
+    "word_count": 384,
+    "reading_time_minutes": 1.7,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 10,
+      "h3_count": 1,
+      "heading_depth_score": 0.8
+    },
+    "content_depth": {
+      "depth_score": 0.59,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 20,
+      "link_score": 1.0,
+      "is_hub": true
+    },
+    "cluster_context": {
+      "cluster_id": "c71ca137b833",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.67,
+    "quality_grade": "C",
+    "c_subclass": "C1",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Strong internal authority",
+      "Leader of small cluster",
+      "Sufficient content depth"
+    ],
+    "recommended_action": "maintain",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/section",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "reference",
+    "word_count": 614,
+    "reading_time_minutes": 2.7,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 10,
+      "h3_count": 2,
+      "heading_depth_score": 0.82
+    },
+    "content_depth": {
+      "depth_score": 0.74,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 20,
+      "link_score": 1.0,
+      "is_hub": true
+    },
+    "cluster_context": {
+      "cluster_id": "d26ab1781553",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.76,
+    "quality_grade": "B",
+    "c_subclass": null,
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Strong internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth"
+    ],
+    "recommended_action": "ignore",
+    "priority": "low"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/p",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "reference",
+    "word_count": 433,
+    "reading_time_minutes": 1.9,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 11,
+      "h3_count": 6,
+      "heading_depth_score": 1.0
+    },
+    "content_depth": {
+      "depth_score": 0.67,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 21,
+      "link_score": 1.0,
+      "is_hub": true
+    },
+    "cluster_context": {
+      "cluster_id": "b1b3f1833479",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.72,
+    "quality_grade": "B",
+    "c_subclass": null,
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Strong internal authority",
+      "Leader of small cluster",
+      "Sufficient content depth"
+    ],
+    "recommended_action": "ignore",
+    "priority": "low"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/div",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "reference",
+    "word_count": 413,
+    "reading_time_minutes": 1.8,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 11,
+      "h3_count": 2,
+      "heading_depth_score": 0.88
+    },
+    "content_depth": {
+      "depth_score": 0.63,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 21,
+      "link_score": 1.0,
+      "is_hub": true
+    },
+    "cluster_context": {
+      "cluster_id": "3aba8566f760",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.7,
+    "quality_grade": "B",
+    "c_subclass": null,
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Strong internal authority",
+      "Leader of small cluster",
+      "Sufficient content depth"
+    ],
+    "recommended_action": "ignore",
+    "priority": "low"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/span",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "reference",
+    "word_count": 229,
+    "reading_time_minutes": 1.0,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 9,
+      "h3_count": 2,
+      "heading_depth_score": 1.0
+    },
+    "content_depth": {
+      "depth_score": 0.56,
+      "thin_reason": "below_docs_threshold_300"
+    },
+    "internal_authority": {
+      "inlinks": 20,
+      "link_score": 1.0,
+      "is_hub": true
+    },
+    "cluster_context": {
+      "cluster_id": "c3b8b05936b5",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.66,
+    "quality_grade": "C",
+    "c_subclass": "C2",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Good content depth",
+      "Strong internal authority",
+      "Leader of small cluster",
+      "Below recommended word count"
+    ],
+    "recommended_action": "ignore",
+    "priority": "high"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "reference",
+    "word_count": 4524,
+    "reading_time_minutes": 20.1,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 14,
+      "h3_count": 8,
+      "heading_depth_score": 0.61
+    },
+    "content_depth": {
+      "depth_score": 0.88,
+      "thin_reason": null
+    },
+    "internal_authority": {
+      "inlinks": 25,
+      "link_score": 1.0,
+      "is_hub": true
+    },
+    "cluster_context": {
+      "cluster_id": "22dfe792b398",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.85,
+    "quality_grade": "A",
+    "c_subclass": null,
+    "ranking_potential": "HIGH",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Exceptional content quality",
+      "Strong internal authority",
+      "Leader of small cluster",
+      "Comprehensive content depth"
+    ],
+    "recommended_action": "ignore",
+    "priority": "low"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/aside",
+    "is_indexable": true,
+    "seo_eligible": true,
+    "content_type": "docs",
+    "page_intent": "reference",
+    "word_count": 258,
+    "reading_time_minutes": 1.1,
+    "heading_structure": {
+      "h1_count": 1,
+      "h2_count": 10,
+      "h3_count": 1,
+      "heading_depth_score": 0.85
+    },
+    "content_depth": {
+      "depth_score": 0.54,
+      "thin_reason": "below_docs_threshold_300"
+    },
+    "internal_authority": {
+      "inlinks": 20,
+      "link_score": 1.0,
+      "is_hub": true
+    },
+    "cluster_context": {
+      "cluster_id": "b8d7dff6c313",
+      "is_cluster_leader": true,
+      "cluster_size": 1
+    },
+    "quality_score": 0.64,
+    "quality_grade": "C",
+    "c_subclass": "C2",
+    "ranking_potential": "MEDIUM",
+    "ranking_blockers": [],
+    "ranking_rationale": [
+      "Moderate content quality",
+      "Strong internal authority",
+      "Leader of small cluster",
+      "Below recommended word count"
+    ],
+    "recommended_action": "ignore",
+    "priority": "high"
+  }
+]

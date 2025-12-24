@@ -1,0 +1,308 @@
+[
+  {
+    "issue_id": "CQ_001",
+    "url": "https://developer.mozilla.org/en-US",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 2) has quality score 0.4",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_002",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+    "issue_type": "orphaned_quality_content",
+    "severity": "medium",
+    "impact": "low_ranking_potential",
+    "details": "High-quality content (score: 0.71) has no internal links",
+    "recommended_action": "Add internal links from relevant hub pages"
+  },
+  {
+    "issue_id": "CQ_003",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/XML",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 1) has quality score 0.42",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_004",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties",
+    "issue_type": "orphaned_quality_content",
+    "severity": "medium",
+    "impact": "low_ranking_potential",
+    "details": "High-quality content (score: 0.72) has no internal links",
+    "recommended_action": "Add internal links from relevant hub pages"
+  },
+  {
+    "issue_id": "CQ_005",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 1) has quality score 0.43",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_006",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 1) has quality score 0.41",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_007",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference",
+    "issue_type": "orphaned_quality_content",
+    "severity": "medium",
+    "impact": "low_ranking_potential",
+    "details": "High-quality content (score: 0.76) has no internal links",
+    "recommended_action": "Add internal links from relevant hub pages"
+  },
+  {
+    "issue_id": "CQ_008",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 1) has quality score 0.49",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_009",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API",
+    "issue_type": "over_optimized_headings",
+    "severity": "medium",
+    "impact": "crawl_budget_waste",
+    "details": "Excessive headings for article: H2=4 (max: 15), H3=48 (max: 30)",
+    "recommended_action": "Consolidate heading structure for better readability"
+  },
+  {
+    "issue_id": "CQ_010",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/URI",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 1) has quality score 0.48",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_011",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 1) has quality score 0.49",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_012",
+    "url": "https://developer.mozilla.org/en-US/play",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 1) has quality score 0.21",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_013",
+    "url": "https://developer.mozilla.org/en-US/observatory",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 1) has quality score 0.36",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_014",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-image_generator",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 1) has quality score 0.35",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_015",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-radius_generator",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 1) has quality score 0.35",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_016",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 1) has quality score 0.48",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_017",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_format_converter",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 1) has quality score 0.42",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_018",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_mixer",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 1) has quality score 0.41",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_019",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shapes/Shape_generator",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 1) has quality score 0.41",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_020",
+    "url": "https://developer.mozilla.org/en-US/advertising",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 1) has quality score 0.41",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_021",
+    "url": "https://developer.mozilla.org/en-US/blog",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 1) has quality score 0.33",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_022",
+    "url": "https://developer.mozilla.org/en-US/blog",
+    "issue_type": "over_optimized_headings",
+    "severity": "medium",
+    "impact": "crawl_budget_waste",
+    "details": "Excessive headings for article: H2=69 (max: 15), H3=0 (max: 30)",
+    "recommended_action": "Consolidate heading structure for better readability"
+  },
+  {
+    "issue_id": "CQ_023",
+    "url": "https://developer.mozilla.org/en-US/blog/mdn-turns-20",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 1) has quality score 0.41",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_024",
+    "url": "https://developer.mozilla.org/en-US/blog/launching-new-front-end",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 1) has quality score 0.35",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_025",
+    "url": "https://developer.mozilla.org/en-US/blog/h1-element-styles",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 1) has quality score 0.49",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_026",
+    "url": "https://developer.mozilla.org/en-US/community/spotlight/shrinivass-arunachalam-balasubramanian",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 1) has quality score 0.48",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_027",
+    "url": "https://developer.mozilla.org/en-US/plus",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 1) has quality score 0.45",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_028",
+    "url": "https://developer.mozilla.org/en-US/docs/MDN/Community",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 1) has quality score 0.44",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_029",
+    "url": "https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 1) has quality score 0.46",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_030",
+    "url": "https://developer.mozilla.org/discord",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 1) has quality score 0.21",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_031",
+    "url": "https://developer.mozilla.org/en-US/docs/Glossary",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 1) has quality score 0.31",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_032",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/head",
+    "issue_type": "thin_content",
+    "severity": "high",
+    "impact": "low_ranking_potential",
+    "details": "Page has 293 words (threshold: 300) but receives 19 internal links",
+    "recommended_action": "Expand to 600+ words with structured sections"
+  },
+  {
+    "issue_id": "CQ_033",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/span",
+    "issue_type": "thin_content",
+    "severity": "high",
+    "impact": "low_ranking_potential",
+    "details": "Page has 229 words (threshold: 300) but receives 20 internal links",
+    "recommended_action": "Expand to 600+ words with structured sections"
+  },
+  {
+    "issue_id": "CQ_034",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/aside",
+    "issue_type": "thin_content",
+    "severity": "high",
+    "impact": "low_ranking_potential",
+    "details": "Page has 258 words (threshold: 300) but receives 20 internal links",
+    "recommended_action": "Expand to 600+ words with structured sections"
+  }
+]

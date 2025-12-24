@@ -1,0 +1,198 @@
+{
+  "audit_metadata": {
+    "generated_at": "2025-12-16T10:18:11.810979",
+    "crawler_version": "2.0",
+    "total_pages_crawled": 17,
+    "indexable_pages_analyzed": 1,
+    "content_pages": 9,
+    "seo_score": 94,
+    "score_grade": "A - Excellent"
+  },
+  "summary": {
+    "total_issues": 3,
+    "critical_issues": 0,
+    "high_issues": 1,
+    "medium_issues": 0,
+    "low_issues": 1,
+    "info_issues": 1,
+    "pages_with_issues": 2,
+    "avg_main_content_word_count": 296.0
+  },
+  "issues_by_severity": {
+    "critical": [],
+    "high": [
+      {
+        "rule_id": "CONTENT_001",
+        "title": "Thin Content Pages",
+        "severity": "high",
+        "category": "content",
+        "description": "1 indexable pages have less than 300 words of main content",
+        "impact": "Thin content pages rarely rank well. Google favors comprehensive, valuable content.",
+        "affected_pages": [
+          "https://brutt.in/ (296 words)"
+        ],
+        "affected_count": 1,
+        "recommendation": "Expand main content to at least 300 words, ideally 600-1000+ for competitive topics",
+        "how_to_fix": "Add detailed explanations, examples, FAQs, and relevant supporting information",
+        "priority_score": 150
+      }
+    ],
+    "medium": [],
+    "low": [
+      {
+        "rule_id": "STRUCT_005",
+        "title": "H1 and Title Tag Mismatch",
+        "severity": "low",
+        "category": "structure",
+        "description": "1 indexable pages have unrelated H1 and title tags",
+        "impact": "Mismatched H1 and titles can create confusion about page topic and dilute keyword focus.",
+        "affected_pages": [
+          "https://brutt.in/ → H1: \"Gifts That HoldMemories\" | Title: \"Custom Handcrafted Art & Personalized Gifts | Brutt\""
+        ],
+        "affected_count": 1,
+        "recommendation": "Align H1 and title tags to reinforce primary keyword and topic",
+        "how_to_fix": "Use similar keywords and phrasing in both H1 and title",
+        "priority_score": 50
+      }
+    ],
+    "info": [
+      {
+        "rule_id": "TECH_004",
+        "title": "Content Pages Not Indexable",
+        "severity": "info",
+        "category": "technical",
+        "description": "8 content pages are not indexable",
+        "impact": "These pages won't appear in search results. Verify this is intentional.",
+        "affected_pages": [
+          "https://brutt.in (canonical_mismatch)",
+          "https://brutt.in/shipping-delivery (canonical_mismatch)",
+          "https://brutt.in/categories (canonical_mismatch)",
+          "https://brutt.in/work-with-us (canonical_mismatch)",
+          "https://brutt.in/gallery (canonical_mismatch)",
+          "https://brutt.in/contact (canonical_mismatch)",
+          "https://brutt.in/about (canonical_mismatch)",
+          "https://brutt.in/refund-policy (canonical_mismatch)"
+        ],
+        "affected_count": 8,
+        "recommendation": "Review why these pages are non-indexable: {'canonical_mismatch': 8}",
+        "how_to_fix": "Fix canonical issues, add content, or confirm noindex is intentional",
+        "priority_score": 90
+      }
+    ]
+  },
+  "issues_by_category": {
+    "content": [
+      {
+        "rule_id": "CONTENT_001",
+        "title": "Thin Content Pages",
+        "severity": "high",
+        "category": "content",
+        "description": "1 indexable pages have less than 300 words of main content",
+        "impact": "Thin content pages rarely rank well. Google favors comprehensive, valuable content.",
+        "affected_pages": [
+          "https://brutt.in/ (296 words)"
+        ],
+        "affected_count": 1,
+        "recommendation": "Expand main content to at least 300 words, ideally 600-1000+ for competitive topics",
+        "how_to_fix": "Add detailed explanations, examples, FAQs, and relevant supporting information",
+        "priority_score": 150
+      }
+    ],
+    "technical": [
+      {
+        "rule_id": "TECH_004",
+        "title": "Content Pages Not Indexable",
+        "severity": "info",
+        "category": "technical",
+        "description": "8 content pages are not indexable",
+        "impact": "These pages won't appear in search results. Verify this is intentional.",
+        "affected_pages": [
+          "https://brutt.in (canonical_mismatch)",
+          "https://brutt.in/shipping-delivery (canonical_mismatch)",
+          "https://brutt.in/categories (canonical_mismatch)",
+          "https://brutt.in/work-with-us (canonical_mismatch)",
+          "https://brutt.in/gallery (canonical_mismatch)",
+          "https://brutt.in/contact (canonical_mismatch)",
+          "https://brutt.in/about (canonical_mismatch)",
+          "https://brutt.in/refund-policy (canonical_mismatch)"
+        ],
+        "affected_count": 8,
+        "recommendation": "Review why these pages are non-indexable: {'canonical_mismatch': 8}",
+        "how_to_fix": "Fix canonical issues, add content, or confirm noindex is intentional",
+        "priority_score": 90
+      }
+    ],
+    "structure": [
+      {
+        "rule_id": "STRUCT_005",
+        "title": "H1 and Title Tag Mismatch",
+        "severity": "low",
+        "category": "structure",
+        "description": "1 indexable pages have unrelated H1 and title tags",
+        "impact": "Mismatched H1 and titles can create confusion about page topic and dilute keyword focus.",
+        "affected_pages": [
+          "https://brutt.in/ → H1: \"Gifts That HoldMemories\" | Title: \"Custom Handcrafted Art & Personalized Gifts | Brutt\""
+        ],
+        "affected_count": 1,
+        "recommendation": "Align H1 and title tags to reinforce primary keyword and topic",
+        "how_to_fix": "Use similar keywords and phrasing in both H1 and title",
+        "priority_score": 50
+      }
+    ]
+  },
+  "top_priorities": [
+    {
+      "rule_id": "CONTENT_001",
+      "title": "Thin Content Pages",
+      "severity": "high",
+      "category": "content",
+      "description": "1 indexable pages have less than 300 words of main content",
+      "impact": "Thin content pages rarely rank well. Google favors comprehensive, valuable content.",
+      "affected_pages": [
+        "https://brutt.in/ (296 words)"
+      ],
+      "affected_count": 1,
+      "recommendation": "Expand main content to at least 300 words, ideally 600-1000+ for competitive topics",
+      "how_to_fix": "Add detailed explanations, examples, FAQs, and relevant supporting information",
+      "priority_score": 150
+    },
+    {
+      "rule_id": "TECH_004",
+      "title": "Content Pages Not Indexable",
+      "severity": "info",
+      "category": "technical",
+      "description": "8 content pages are not indexable",
+      "impact": "These pages won't appear in search results. Verify this is intentional.",
+      "affected_pages": [
+        "https://brutt.in (canonical_mismatch)",
+        "https://brutt.in/shipping-delivery (canonical_mismatch)",
+        "https://brutt.in/categories (canonical_mismatch)",
+        "https://brutt.in/work-with-us (canonical_mismatch)",
+        "https://brutt.in/gallery (canonical_mismatch)",
+        "https://brutt.in/contact (canonical_mismatch)",
+        "https://brutt.in/about (canonical_mismatch)",
+        "https://brutt.in/refund-policy (canonical_mismatch)"
+      ],
+      "affected_count": 8,
+      "recommendation": "Review why these pages are non-indexable: {'canonical_mismatch': 8}",
+      "how_to_fix": "Fix canonical issues, add content, or confirm noindex is intentional",
+      "priority_score": 90
+    },
+    {
+      "rule_id": "STRUCT_005",
+      "title": "H1 and Title Tag Mismatch",
+      "severity": "low",
+      "category": "structure",
+      "description": "1 indexable pages have unrelated H1 and title tags",
+      "impact": "Mismatched H1 and titles can create confusion about page topic and dilute keyword focus.",
+      "affected_pages": [
+        "https://brutt.in/ → H1: \"Gifts That HoldMemories\" | Title: \"Custom Handcrafted Art & Personalized Gifts | Brutt\""
+      ],
+      "affected_count": 1,
+      "recommendation": "Align H1 and title tags to reinforce primary keyword and topic",
+      "how_to_fix": "Use similar keywords and phrasing in both H1 and title",
+      "priority_score": 50
+    }
+  ],
+  "quick_wins": []
+}

@@ -1,0 +1,15 @@
+{
+  "total_pages": 99,
+  "total_fixes": 139,
+  "fixes_by_type": {
+    "canonical": 91,
+    "content_quality": 48
+  },
+  "fixes_by_effort": {
+    "LOW": 90,
+    "HIGH": 49
+  },
+  "critical_fixes": 0,
+  "quick_wins": 0,
+  "total_estimated_hours": 56.5
+}

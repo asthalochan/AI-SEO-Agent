@@ -1,0 +1,2295 @@
+{
+  "critical": [],
+  "high": [
+    {
+      "issue_id": "REDIRECT_CHAIN_21",
+      "title": "Redirect Chain Detected",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/discord",
+      "final_url": "https://discord.com/invite/Gt4Qf6q67h",
+      "impact": "Redirect chain with 3 hops dilutes link equity and slows page load.",
+      "recommendation": "Simplify to single redirect: http://developer.mozilla.org/discord → https://discord.com/invite/Gt4Qf6q67h",
+      "metadata": {
+        "chain_length": 3,
+        "chain": [
+          {
+            "url": "http://developer.mozilla.org/discord",
+            "status": 301
+          },
+          {
+            "url": "https://developer.mozilla.org/discord",
+            "status": 302
+          },
+          {
+            "url": "https://discord.gg/Gt4Qf6q67h",
+            "status": 301
+          }
+        ]
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_34",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US",
+      "final_url": "https://developer.mozilla.org/en-US/",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 2
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_35",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/HTML",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_36",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_37",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_38",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_39",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_40",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_41",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Cheatsheet",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Cheatsheet",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_42",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Date_and_time_formats",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Date_and_time_formats",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_43",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/HTML/Guides",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_44",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/SVG",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/SVG",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_45",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/MathML",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/MathML",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_46",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/XML",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/XML",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_47",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_48",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_49",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_50",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_51",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_52",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS/Reference",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_53",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Box_model/Introduction",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Box_model/Introduction",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_54",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Animations/Using",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Animations/Using",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_55",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_56",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Applying_color",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Applying_color",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_57",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS/Guides",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_58",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Column_layouts",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Column_layouts",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_59",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Center_an_element",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Center_an_element",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_60",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Card",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Card",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_61",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_62",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_63",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_64",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_65",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_66",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_67",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_68",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_69",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_70",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_objects",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_objects",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_71",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_classes",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_classes",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_72",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_73",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/API",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/API",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_74",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_75",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/Accessibility",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_76",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/HTTP",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_77",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/URI",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/URI",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_78",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_79",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/WebAssembly",
+      "final_url": "https://developer.mozilla.org/en-US/docs/WebAssembly",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_80",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/WebDriver",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/WebDriver",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_81",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/Media",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/Media",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_82",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/Performance",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/Performance",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_83",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/Privacy",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/Privacy",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_84",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/Security",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/Security",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_85",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_86",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Learn_web_development",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_87",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_88",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Learn_web_development/Core",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_89",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/curriculum",
+      "final_url": "https://developer.mozilla.org/en-US/curriculum/",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 2
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_90",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_91",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_92",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_93",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_94",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/play",
+      "final_url": "https://developer.mozilla.org/en-US/play",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_95",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/observatory",
+      "final_url": "https://developer.mozilla.org/en-US/observatory",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_96",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-image_generator",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-image_generator",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 2
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_97",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-radius_generator",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-radius_generator",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 2
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_98",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Box-shadow_generator",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 2
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_99",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_format_converter",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Color_format_converter",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 2
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_100",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_mixer",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Color_mixer",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 2
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_101",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shapes/Shape_generator",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Shapes/Shape_generator",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 2
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_102",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/about",
+      "final_url": "https://developer.mozilla.org/en-US/about",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_103",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/advertising",
+      "final_url": "https://developer.mozilla.org/en-US/advertising",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_104",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/community",
+      "final_url": "https://developer.mozilla.org/en-US/community",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_105",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/blog",
+      "final_url": "https://developer.mozilla.org/en-US/blog/",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 2
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_106",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/blog/mdn-turns-20",
+      "final_url": "https://developer.mozilla.org/en-US/blog/mdn-turns-20/",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 2
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_107",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Resource_management",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Resource_management",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_108",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/blog/launching-new-front-end",
+      "final_url": "https://developer.mozilla.org/en-US/blog/launching-new-front-end/",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 2
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_109",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/blog/image-formats-pixels-graphics",
+      "final_url": "https://developer.mozilla.org/en-US/blog/image-formats-pixels-graphics/",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 2
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_110",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/blog/color-models-humans-devices",
+      "final_url": "https://developer.mozilla.org/en-US/blog/color-models-humans-devices/",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 2
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_111",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/blog/h1-element-styles",
+      "final_url": "https://developer.mozilla.org/en-US/blog/h1-element-styles/",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 2
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_112",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/community/spotlight/shrinivass-arunachalam-balasubramanian",
+      "final_url": "https://developer.mozilla.org/en-US/community/spotlight/shrinivass-arunachalam-balasubramanian",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_113",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/",
+      "final_url": "https://developer.mozilla.org/en-US/",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 2
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_114",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/plus",
+      "final_url": "https://developer.mozilla.org/en-US/plus",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_115",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/MDN/Community",
+      "final_url": "https://developer.mozilla.org/en-US/docs/MDN/Community",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_116",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines",
+      "final_url": "https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_117",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/discord",
+      "final_url": "https://discord.com/invite/Gt4Qf6q67h",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 3
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_118",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/MDN/Guides",
+      "final_url": "https://developer.mozilla.org/en-US/docs/MDN/Guides",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_119",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/MDN/Tutorials",
+      "final_url": "https://developer.mozilla.org/en-US/docs/MDN/Tutorials",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_120",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Glossary",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Glossary",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_121",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+      "final_url": "https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 2
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_122",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/head",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/head",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_123",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/title",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/title",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_124",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/body",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/body",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_125",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/header",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/header",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_126",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/footer",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/footer",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_127",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/article",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/article",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_128",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/section",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/section",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_129",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/p",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/p",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_130",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/div",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/div",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_131",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/span",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/span",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_132",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    },
+    {
+      "issue_id": "HTTPS_WWW_CONSOLIDATION_133",
+      "title": "HTTP → HTTPS Redirect",
+      "severity": "high",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/aside",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/aside",
+      "impact": "Protocol/subdomain consolidation redirect detected.",
+      "recommendation": "Ensure single-hop permanent (301) redirect for best SEO.",
+      "metadata": {
+        "redirect_reason": [
+          "HTTP → HTTPS"
+        ],
+        "chain_length": 1
+      }
+    }
+  ],
+  "medium": [
+    {
+      "issue_id": "REDIRECT_CHAIN_0",
+      "title": "Redirect Chain Detected",
+      "severity": "medium",
+      "affected_url": "http://developer.mozilla.org/en-US",
+      "final_url": "https://developer.mozilla.org/en-US/",
+      "impact": "Redirect chain with 2 hops dilutes link equity and slows page load.",
+      "recommendation": "Simplify to single redirect: http://developer.mozilla.org/en-US → https://developer.mozilla.org/en-US/",
+      "metadata": {
+        "chain_length": 2,
+        "chain": [
+          {
+            "url": "http://developer.mozilla.org/en-US",
+            "status": 301
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US",
+            "status": 301
+          }
+        ]
+      }
+    },
+    {
+      "issue_id": "REDIRECT_CHAIN_1",
+      "title": "Redirect Chain Detected",
+      "severity": "medium",
+      "affected_url": "http://developer.mozilla.org/en-US/curriculum",
+      "final_url": "https://developer.mozilla.org/en-US/curriculum/",
+      "impact": "Redirect chain with 2 hops dilutes link equity and slows page load.",
+      "recommendation": "Simplify to single redirect: http://developer.mozilla.org/en-US/curriculum → https://developer.mozilla.org/en-US/curriculum/",
+      "metadata": {
+        "chain_length": 2,
+        "chain": [
+          {
+            "url": "http://developer.mozilla.org/en-US/curriculum",
+            "status": 301
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/curriculum",
+            "status": 301
+          }
+        ]
+      }
+    },
+    {
+      "issue_id": "REDIRECT_CHAIN_2",
+      "title": "Redirect Chain Detected",
+      "severity": "medium",
+      "affected_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-image_generator/",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-image_generator",
+      "impact": "Redirect chain with 2 hops dilutes link equity and slows page load.",
+      "recommendation": "Simplify to single redirect: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-image_generator/ → https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-image_generator",
+      "metadata": {
+        "chain_length": 2,
+        "chain": [
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-image_generator/",
+            "status": 302
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-image_generator",
+            "status": 301
+          }
+        ]
+      }
+    },
+    {
+      "issue_id": "REDIRECT_CHAIN_3",
+      "title": "Redirect Chain Detected",
+      "severity": "medium",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-image_generator",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-image_generator",
+      "impact": "Redirect chain with 2 hops dilutes link equity and slows page load.",
+      "recommendation": "Simplify to single redirect: http://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-image_generator → https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-image_generator",
+      "metadata": {
+        "chain_length": 2,
+        "chain": [
+          {
+            "url": "http://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-image_generator",
+            "status": 301
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-image_generator",
+            "status": 301
+          }
+        ]
+      }
+    },
+    {
+      "issue_id": "REDIRECT_CHAIN_4",
+      "title": "Redirect Chain Detected",
+      "severity": "medium",
+      "affected_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-radius_generator/",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-radius_generator",
+      "impact": "Redirect chain with 2 hops dilutes link equity and slows page load.",
+      "recommendation": "Simplify to single redirect: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-radius_generator/ → https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-radius_generator",
+      "metadata": {
+        "chain_length": 2,
+        "chain": [
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-radius_generator/",
+            "status": 302
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-radius_generator",
+            "status": 301
+          }
+        ]
+      }
+    },
+    {
+      "issue_id": "REDIRECT_CHAIN_5",
+      "title": "Redirect Chain Detected",
+      "severity": "medium",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-radius_generator",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-radius_generator",
+      "impact": "Redirect chain with 2 hops dilutes link equity and slows page load.",
+      "recommendation": "Simplify to single redirect: http://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-radius_generator → https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-radius_generator",
+      "metadata": {
+        "chain_length": 2,
+        "chain": [
+          {
+            "url": "http://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-radius_generator",
+            "status": 301
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-radius_generator",
+            "status": 301
+          }
+        ]
+      }
+    },
+    {
+      "issue_id": "REDIRECT_CHAIN_6",
+      "title": "Redirect Chain Detected",
+      "severity": "medium",
+      "affected_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator/",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Box-shadow_generator",
+      "impact": "Redirect chain with 2 hops dilutes link equity and slows page load.",
+      "recommendation": "Simplify to single redirect: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator/ → https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Box-shadow_generator",
+      "metadata": {
+        "chain_length": 2,
+        "chain": [
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator/",
+            "status": 302
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator",
+            "status": 301
+          }
+        ]
+      }
+    },
+    {
+      "issue_id": "REDIRECT_CHAIN_7",
+      "title": "Redirect Chain Detected",
+      "severity": "medium",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Box-shadow_generator",
+      "impact": "Redirect chain with 2 hops dilutes link equity and slows page load.",
+      "recommendation": "Simplify to single redirect: http://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator → https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Box-shadow_generator",
+      "metadata": {
+        "chain_length": 2,
+        "chain": [
+          {
+            "url": "http://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator",
+            "status": 301
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator",
+            "status": 301
+          }
+        ]
+      }
+    },
+    {
+      "issue_id": "REDIRECT_CHAIN_8",
+      "title": "Redirect Chain Detected",
+      "severity": "medium",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_format_converter",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Color_format_converter",
+      "impact": "Redirect chain with 2 hops dilutes link equity and slows page load.",
+      "recommendation": "Simplify to single redirect: http://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_format_converter → https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Color_format_converter",
+      "metadata": {
+        "chain_length": 2,
+        "chain": [
+          {
+            "url": "http://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_format_converter",
+            "status": 301
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_format_converter",
+            "status": 301
+          }
+        ]
+      }
+    },
+    {
+      "issue_id": "REDIRECT_CHAIN_9",
+      "title": "Redirect Chain Detected",
+      "severity": "medium",
+      "affected_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_format_converter/",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Color_format_converter",
+      "impact": "Redirect chain with 2 hops dilutes link equity and slows page load.",
+      "recommendation": "Simplify to single redirect: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_format_converter/ → https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Color_format_converter",
+      "metadata": {
+        "chain_length": 2,
+        "chain": [
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_format_converter/",
+            "status": 302
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_format_converter",
+            "status": 301
+          }
+        ]
+      }
+    },
+    {
+      "issue_id": "REDIRECT_CHAIN_10",
+      "title": "Redirect Chain Detected",
+      "severity": "medium",
+      "affected_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_mixer/",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Color_mixer",
+      "impact": "Redirect chain with 2 hops dilutes link equity and slows page load.",
+      "recommendation": "Simplify to single redirect: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_mixer/ → https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Color_mixer",
+      "metadata": {
+        "chain_length": 2,
+        "chain": [
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_mixer/",
+            "status": 302
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_mixer",
+            "status": 301
+          }
+        ]
+      }
+    },
+    {
+      "issue_id": "REDIRECT_CHAIN_11",
+      "title": "Redirect Chain Detected",
+      "severity": "medium",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_mixer",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Color_mixer",
+      "impact": "Redirect chain with 2 hops dilutes link equity and slows page load.",
+      "recommendation": "Simplify to single redirect: http://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_mixer → https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Color_mixer",
+      "metadata": {
+        "chain_length": 2,
+        "chain": [
+          {
+            "url": "http://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_mixer",
+            "status": 301
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_mixer",
+            "status": 301
+          }
+        ]
+      }
+    },
+    {
+      "issue_id": "REDIRECT_CHAIN_12",
+      "title": "Redirect Chain Detected",
+      "severity": "medium",
+      "affected_url": "http://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shapes/Shape_generator",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Shapes/Shape_generator",
+      "impact": "Redirect chain with 2 hops dilutes link equity and slows page load.",
+      "recommendation": "Simplify to single redirect: http://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shapes/Shape_generator → https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Shapes/Shape_generator",
+      "metadata": {
+        "chain_length": 2,
+        "chain": [
+          {
+            "url": "http://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shapes/Shape_generator",
+            "status": 301
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shapes/Shape_generator",
+            "status": 301
+          }
+        ]
+      }
+    },
+    {
+      "issue_id": "REDIRECT_CHAIN_13",
+      "title": "Redirect Chain Detected",
+      "severity": "medium",
+      "affected_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shapes/Shape_generator/",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Shapes/Shape_generator",
+      "impact": "Redirect chain with 2 hops dilutes link equity and slows page load.",
+      "recommendation": "Simplify to single redirect: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shapes/Shape_generator/ → https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Shapes/Shape_generator",
+      "metadata": {
+        "chain_length": 2,
+        "chain": [
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shapes/Shape_generator/",
+            "status": 302
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shapes/Shape_generator",
+            "status": 301
+          }
+        ]
+      }
+    },
+    {
+      "issue_id": "REDIRECT_CHAIN_14",
+      "title": "Redirect Chain Detected",
+      "severity": "medium",
+      "affected_url": "http://developer.mozilla.org/en-US/blog",
+      "final_url": "https://developer.mozilla.org/en-US/blog/",
+      "impact": "Redirect chain with 2 hops dilutes link equity and slows page load.",
+      "recommendation": "Simplify to single redirect: http://developer.mozilla.org/en-US/blog → https://developer.mozilla.org/en-US/blog/",
+      "metadata": {
+        "chain_length": 2,
+        "chain": [
+          {
+            "url": "http://developer.mozilla.org/en-US/blog",
+            "status": 301
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/blog",
+            "status": 301
+          }
+        ]
+      }
+    },
+    {
+      "issue_id": "REDIRECT_CHAIN_15",
+      "title": "Redirect Chain Detected",
+      "severity": "medium",
+      "affected_url": "http://developer.mozilla.org/en-US/blog/mdn-turns-20",
+      "final_url": "https://developer.mozilla.org/en-US/blog/mdn-turns-20/",
+      "impact": "Redirect chain with 2 hops dilutes link equity and slows page load.",
+      "recommendation": "Simplify to single redirect: http://developer.mozilla.org/en-US/blog/mdn-turns-20 → https://developer.mozilla.org/en-US/blog/mdn-turns-20/",
+      "metadata": {
+        "chain_length": 2,
+        "chain": [
+          {
+            "url": "http://developer.mozilla.org/en-US/blog/mdn-turns-20",
+            "status": 301
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/blog/mdn-turns-20",
+            "status": 301
+          }
+        ]
+      }
+    },
+    {
+      "issue_id": "REDIRECT_CHAIN_16",
+      "title": "Redirect Chain Detected",
+      "severity": "medium",
+      "affected_url": "http://developer.mozilla.org/en-US/blog/launching-new-front-end",
+      "final_url": "https://developer.mozilla.org/en-US/blog/launching-new-front-end/",
+      "impact": "Redirect chain with 2 hops dilutes link equity and slows page load.",
+      "recommendation": "Simplify to single redirect: http://developer.mozilla.org/en-US/blog/launching-new-front-end → https://developer.mozilla.org/en-US/blog/launching-new-front-end/",
+      "metadata": {
+        "chain_length": 2,
+        "chain": [
+          {
+            "url": "http://developer.mozilla.org/en-US/blog/launching-new-front-end",
+            "status": 301
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/blog/launching-new-front-end",
+            "status": 301
+          }
+        ]
+      }
+    },
+    {
+      "issue_id": "REDIRECT_CHAIN_17",
+      "title": "Redirect Chain Detected",
+      "severity": "medium",
+      "affected_url": "http://developer.mozilla.org/en-US/blog/image-formats-pixels-graphics",
+      "final_url": "https://developer.mozilla.org/en-US/blog/image-formats-pixels-graphics/",
+      "impact": "Redirect chain with 2 hops dilutes link equity and slows page load.",
+      "recommendation": "Simplify to single redirect: http://developer.mozilla.org/en-US/blog/image-formats-pixels-graphics → https://developer.mozilla.org/en-US/blog/image-formats-pixels-graphics/",
+      "metadata": {
+        "chain_length": 2,
+        "chain": [
+          {
+            "url": "http://developer.mozilla.org/en-US/blog/image-formats-pixels-graphics",
+            "status": 301
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/blog/image-formats-pixels-graphics",
+            "status": 301
+          }
+        ]
+      }
+    },
+    {
+      "issue_id": "REDIRECT_CHAIN_18",
+      "title": "Redirect Chain Detected",
+      "severity": "medium",
+      "affected_url": "http://developer.mozilla.org/en-US/blog/color-models-humans-devices",
+      "final_url": "https://developer.mozilla.org/en-US/blog/color-models-humans-devices/",
+      "impact": "Redirect chain with 2 hops dilutes link equity and slows page load.",
+      "recommendation": "Simplify to single redirect: http://developer.mozilla.org/en-US/blog/color-models-humans-devices → https://developer.mozilla.org/en-US/blog/color-models-humans-devices/",
+      "metadata": {
+        "chain_length": 2,
+        "chain": [
+          {
+            "url": "http://developer.mozilla.org/en-US/blog/color-models-humans-devices",
+            "status": 301
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/blog/color-models-humans-devices",
+            "status": 301
+          }
+        ]
+      }
+    },
+    {
+      "issue_id": "REDIRECT_CHAIN_19",
+      "title": "Redirect Chain Detected",
+      "severity": "medium",
+      "affected_url": "http://developer.mozilla.org/en-US/blog/h1-element-styles",
+      "final_url": "https://developer.mozilla.org/en-US/blog/h1-element-styles/",
+      "impact": "Redirect chain with 2 hops dilutes link equity and slows page load.",
+      "recommendation": "Simplify to single redirect: http://developer.mozilla.org/en-US/blog/h1-element-styles → https://developer.mozilla.org/en-US/blog/h1-element-styles/",
+      "metadata": {
+        "chain_length": 2,
+        "chain": [
+          {
+            "url": "http://developer.mozilla.org/en-US/blog/h1-element-styles",
+            "status": 301
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/blog/h1-element-styles",
+            "status": 301
+          }
+        ]
+      }
+    },
+    {
+      "issue_id": "REDIRECT_CHAIN_20",
+      "title": "Redirect Chain Detected",
+      "severity": "medium",
+      "affected_url": "http://developer.mozilla.org/",
+      "final_url": "https://developer.mozilla.org/en-US/",
+      "impact": "Redirect chain with 2 hops dilutes link equity and slows page load.",
+      "recommendation": "Simplify to single redirect: http://developer.mozilla.org/ → https://developer.mozilla.org/en-US/",
+      "metadata": {
+        "chain_length": 2,
+        "chain": [
+          {
+            "url": "http://developer.mozilla.org/",
+            "status": 301
+          },
+          {
+            "url": "https://developer.mozilla.org/",
+            "status": 302
+          }
+        ]
+      }
+    },
+    {
+      "issue_id": "REDIRECT_CHAIN_22",
+      "title": "Redirect Chain Detected",
+      "severity": "medium",
+      "affected_url": "https://developer.mozilla.org/discord/",
+      "final_url": "https://discord.com/invite/Gt4Qf6q67h",
+      "impact": "Redirect chain with 2 hops dilutes link equity and slows page load.",
+      "recommendation": "Simplify to single redirect: https://developer.mozilla.org/discord/ → https://discord.com/invite/Gt4Qf6q67h",
+      "metadata": {
+        "chain_length": 2,
+        "chain": [
+          {
+            "url": "https://developer.mozilla.org/discord/",
+            "status": 302
+          },
+          {
+            "url": "https://discord.gg/Gt4Qf6q67h",
+            "status": 301
+          }
+        ]
+      }
+    },
+    {
+      "issue_id": "REDIRECT_CHAIN_23",
+      "title": "Redirect Chain Detected",
+      "severity": "medium",
+      "affected_url": "http://developer.mozilla.org/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+      "final_url": "https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+      "impact": "Redirect chain with 2 hops dilutes link equity and slows page load.",
+      "recommendation": "Simplify to single redirect: http://developer.mozilla.org/docs/MDN/Writing_guidelines/Attrib_copyright_license → https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+      "metadata": {
+        "chain_length": 2,
+        "chain": [
+          {
+            "url": "http://developer.mozilla.org/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+            "status": 301
+          },
+          {
+            "url": "https://developer.mozilla.org/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+            "status": 302
+          }
+        ]
+      }
+    },
+    {
+      "issue_id": "MIXED_REDIRECT_TYPES_24",
+      "title": "Mixed Redirect Types in Chain",
+      "severity": "medium",
+      "affected_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-image_generator/",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-image_generator",
+      "impact": "Mixed 301/302 redirects signal instability and confuse search engines.",
+      "recommendation": "Use consistent redirect type (prefer 301 for permanent moves).",
+      "metadata": {
+        "chain": [
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-image_generator/",
+            "status": 302
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-image_generator",
+            "status": 301
+          }
+        ],
+        "redirect_type": {
+          "path_change": "trailing_slash",
+          "status_type": "mixed_status"
+        }
+      }
+    },
+    {
+      "issue_id": "MIXED_REDIRECT_TYPES_25",
+      "title": "Mixed Redirect Types in Chain",
+      "severity": "medium",
+      "affected_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-radius_generator/",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-radius_generator",
+      "impact": "Mixed 301/302 redirects signal instability and confuse search engines.",
+      "recommendation": "Use consistent redirect type (prefer 301 for permanent moves).",
+      "metadata": {
+        "chain": [
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-radius_generator/",
+            "status": 302
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-radius_generator",
+            "status": 301
+          }
+        ],
+        "redirect_type": {
+          "path_change": "trailing_slash",
+          "status_type": "mixed_status"
+        }
+      }
+    },
+    {
+      "issue_id": "MIXED_REDIRECT_TYPES_26",
+      "title": "Mixed Redirect Types in Chain",
+      "severity": "medium",
+      "affected_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator/",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Box-shadow_generator",
+      "impact": "Mixed 301/302 redirects signal instability and confuse search engines.",
+      "recommendation": "Use consistent redirect type (prefer 301 for permanent moves).",
+      "metadata": {
+        "chain": [
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator/",
+            "status": 302
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator",
+            "status": 301
+          }
+        ],
+        "redirect_type": {
+          "path_change": "trailing_slash",
+          "status_type": "mixed_status"
+        }
+      }
+    },
+    {
+      "issue_id": "MIXED_REDIRECT_TYPES_27",
+      "title": "Mixed Redirect Types in Chain",
+      "severity": "medium",
+      "affected_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_format_converter/",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Color_format_converter",
+      "impact": "Mixed 301/302 redirects signal instability and confuse search engines.",
+      "recommendation": "Use consistent redirect type (prefer 301 for permanent moves).",
+      "metadata": {
+        "chain": [
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_format_converter/",
+            "status": 302
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_format_converter",
+            "status": 301
+          }
+        ],
+        "redirect_type": {
+          "path_change": "trailing_slash",
+          "status_type": "mixed_status"
+        }
+      }
+    },
+    {
+      "issue_id": "MIXED_REDIRECT_TYPES_28",
+      "title": "Mixed Redirect Types in Chain",
+      "severity": "medium",
+      "affected_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_mixer/",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Color_mixer",
+      "impact": "Mixed 301/302 redirects signal instability and confuse search engines.",
+      "recommendation": "Use consistent redirect type (prefer 301 for permanent moves).",
+      "metadata": {
+        "chain": [
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_mixer/",
+            "status": 302
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_mixer",
+            "status": 301
+          }
+        ],
+        "redirect_type": {
+          "path_change": "trailing_slash",
+          "status_type": "mixed_status"
+        }
+      }
+    },
+    {
+      "issue_id": "MIXED_REDIRECT_TYPES_29",
+      "title": "Mixed Redirect Types in Chain",
+      "severity": "medium",
+      "affected_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shapes/Shape_generator/",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Shapes/Shape_generator",
+      "impact": "Mixed 301/302 redirects signal instability and confuse search engines.",
+      "recommendation": "Use consistent redirect type (prefer 301 for permanent moves).",
+      "metadata": {
+        "chain": [
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shapes/Shape_generator/",
+            "status": 302
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shapes/Shape_generator",
+            "status": 301
+          }
+        ],
+        "redirect_type": {
+          "path_change": "trailing_slash",
+          "status_type": "mixed_status"
+        }
+      }
+    },
+    {
+      "issue_id": "MIXED_REDIRECT_TYPES_30",
+      "title": "Mixed Redirect Types in Chain",
+      "severity": "medium",
+      "affected_url": "http://developer.mozilla.org/",
+      "final_url": "https://developer.mozilla.org/en-US/",
+      "impact": "Mixed 301/302 redirects signal instability and confuse search engines.",
+      "recommendation": "Use consistent redirect type (prefer 301 for permanent moves).",
+      "metadata": {
+        "chain": [
+          {
+            "url": "http://developer.mozilla.org/",
+            "status": 301
+          },
+          {
+            "url": "https://developer.mozilla.org/",
+            "status": 302
+          }
+        ],
+        "redirect_type": {
+          "protocol_change": "http_to_https",
+          "status_type": "mixed_status"
+        }
+      }
+    },
+    {
+      "issue_id": "MIXED_REDIRECT_TYPES_31",
+      "title": "Mixed Redirect Types in Chain",
+      "severity": "medium",
+      "affected_url": "http://developer.mozilla.org/discord",
+      "final_url": "https://discord.com/invite/Gt4Qf6q67h",
+      "impact": "Mixed 301/302 redirects signal instability and confuse search engines.",
+      "recommendation": "Use consistent redirect type (prefer 301 for permanent moves).",
+      "metadata": {
+        "chain": [
+          {
+            "url": "http://developer.mozilla.org/discord",
+            "status": 301
+          },
+          {
+            "url": "https://developer.mozilla.org/discord",
+            "status": 302
+          },
+          {
+            "url": "https://discord.gg/Gt4Qf6q67h",
+            "status": 301
+          }
+        ],
+        "redirect_type": {
+          "protocol_change": "http_to_https",
+          "path_change": "path_migration",
+          "status_type": "mixed_status"
+        }
+      }
+    },
+    {
+      "issue_id": "MIXED_REDIRECT_TYPES_32",
+      "title": "Mixed Redirect Types in Chain",
+      "severity": "medium",
+      "affected_url": "https://developer.mozilla.org/discord/",
+      "final_url": "https://discord.com/invite/Gt4Qf6q67h",
+      "impact": "Mixed 301/302 redirects signal instability and confuse search engines.",
+      "recommendation": "Use consistent redirect type (prefer 301 for permanent moves).",
+      "metadata": {
+        "chain": [
+          {
+            "url": "https://developer.mozilla.org/discord/",
+            "status": 302
+          },
+          {
+            "url": "https://discord.gg/Gt4Qf6q67h",
+            "status": 301
+          }
+        ],
+        "redirect_type": {
+          "path_change": "path_migration",
+          "status_type": "mixed_status"
+        }
+      }
+    },
+    {
+      "issue_id": "MIXED_REDIRECT_TYPES_33",
+      "title": "Mixed Redirect Types in Chain",
+      "severity": "medium",
+      "affected_url": "http://developer.mozilla.org/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+      "final_url": "https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+      "impact": "Mixed 301/302 redirects signal instability and confuse search engines.",
+      "recommendation": "Use consistent redirect type (prefer 301 for permanent moves).",
+      "metadata": {
+        "chain": [
+          {
+            "url": "http://developer.mozilla.org/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+            "status": 301
+          },
+          {
+            "url": "https://developer.mozilla.org/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+            "status": 302
+          }
+        ],
+        "redirect_type": {
+          "protocol_change": "http_to_https",
+          "status_type": "mixed_status"
+        }
+      }
+    }
+  ],
+  "low": []
+}

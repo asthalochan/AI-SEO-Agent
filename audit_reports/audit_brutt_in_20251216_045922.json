@@ -1,0 +1,579 @@
+{
+  "audit_metadata": {
+    "generated_at": "2025-12-16T04:59:22.012998",
+    "total_pages_analyzed": 10,
+    "seo_score": 63,
+    "score_grade": "D - Poor"
+  },
+  "summary": {
+    "total_issues": 9,
+    "critical_issues": 2,
+    "high_issues": 2,
+    "medium_issues": 3,
+    "low_issues": 2,
+    "info_issues": 0,
+    "pages_with_issues": 48,
+    "avg_word_count": 208.4
+  },
+  "issues_by_severity": {
+    "critical": [
+      {
+        "rule_id": "TECH_002",
+        "title": "Incorrect Canonical URLs",
+        "severity": "critical",
+        "category": "technical",
+        "description": "8 pages have canonical URLs pointing elsewhere",
+        "impact": "Wrong canonicals tell Google to index a different page, causing these pages not to rank.",
+        "affected_pages": [
+          "https://brutt.in/auth?view=signin → https://brutt.in/",
+          "https://brutt.in/work-with-us → https://brutt.in/",
+          "https://brutt.in/auth?view=signup → https://brutt.in/",
+          "https://brutt.in/creations → https://brutt.in/",
+          "https://brutt.in/terms → https://brutt.in/",
+          "https://brutt.in/privacy-policy → https://brutt.in/",
+          "https://brutt.in/about → https://brutt.in/",
+          "https://brutt.in/contact → https://brutt.in/"
+        ],
+        "affected_count": 8,
+        "recommendation": "Set canonical URLs to self-reference unless intentionally consolidating duplicate content",
+        "how_to_fix": "<link rel=\"canonical\" href=\"https://domain.com/this-page\" />",
+        "priority_score": 180
+      },
+      {
+        "rule_id": "CONTENT_002",
+        "title": "Extremely Thin Content",
+        "severity": "critical",
+        "category": "content",
+        "description": "3 pages have less than 100 words",
+        "impact": "Pages with under 100 words provide minimal value and may be penalized by Google.",
+        "affected_pages": [
+          "https://brutt.in/auth?view=signin (46 words)",
+          "https://brutt.in/auth?view=signup (42 words)",
+          "https://brutt.in/creations (17 words)"
+        ],
+        "affected_count": 3,
+        "recommendation": "Either add substantial content (300+ words) or consider noindexing these pages",
+        "how_to_fix": "Consolidate with other pages or create comprehensive standalone content",
+        "priority_score": 130
+      }
+    ],
+    "high": [
+      {
+        "rule_id": "META_004",
+        "title": "Duplicate Title Tags",
+        "severity": "high",
+        "category": "meta_tags",
+        "description": "7 pages share duplicate title tags",
+        "impact": "Duplicate titles confuse search engines about which page to rank, causing internal competition.",
+        "affected_pages": [
+          "https://brutt.in → \"Custom Handcrafted Art & Personalized Gifts | Brutt\"",
+          "https://brutt.in/auth?view=signin → \"Brutt - Custom Handcrafted Art & Personalized Gifts | Handmade in India\"",
+          "https://brutt.in/auth?view=signup → \"Brutt - Custom Handcrafted Art & Personalized Gifts | Handmade in India\"",
+          "https://brutt.in/creations → \"Brutt - Custom Handcrafted Art & Personalized Gifts | Handmade in India\"",
+          "https://brutt.in/ → \"Custom Handcrafted Art & Personalized Gifts | Brutt\"",
+          "https://brutt.in/terms → \"Brutt - Custom Handcrafted Art & Personalized Gifts | Handmade in India\"",
+          "https://brutt.in/privacy-policy → \"Brutt - Custom Handcrafted Art & Personalized Gifts | Handmade in India\""
+        ],
+        "affected_count": 7,
+        "recommendation": "Create unique title tags for each page that reflect its specific content",
+        "how_to_fix": "Include page-specific keywords and differentiate similar pages",
+        "priority_score": 127
+      },
+      {
+        "rule_id": "CONTENT_001",
+        "title": "Thin Content Pages",
+        "severity": "high",
+        "category": "content",
+        "description": "6 pages have less than 300 words",
+        "impact": "Thin content pages rarely rank well. Google favors comprehensive, valuable content.",
+        "affected_pages": [
+          "https://brutt.in/auth?view=signin (46 words)",
+          "https://brutt.in/auth?view=signup (42 words)",
+          "https://brutt.in/creations (17 words)",
+          "https://brutt.in/terms (212 words)",
+          "https://brutt.in/privacy-policy (210 words)",
+          "https://brutt.in/contact (133 words)"
+        ],
+        "affected_count": 6,
+        "recommendation": "Expand content to at least 300 words, ideally 600-1000+ for competitive topics",
+        "how_to_fix": "Add detailed explanations, examples, FAQs, and relevant supporting information",
+        "priority_score": 120
+      }
+    ],
+    "medium": [
+      {
+        "rule_id": "META_007",
+        "title": "Duplicate Meta Descriptions",
+        "severity": "medium",
+        "category": "meta_tags",
+        "description": "10 pages share duplicate meta descriptions",
+        "impact": "Duplicate descriptions reduce uniqueness and may lower click-through rates from search results.",
+        "affected_pages": [
+          "https://brutt.in",
+          "https://brutt.in/auth?view=signin",
+          "https://brutt.in/work-with-us",
+          "https://brutt.in/auth?view=signup",
+          "https://brutt.in/creations",
+          "https://brutt.in/",
+          "https://brutt.in/terms",
+          "https://brutt.in/privacy-policy",
+          "https://brutt.in/about",
+          "https://brutt.in/contact"
+        ],
+        "affected_count": 10,
+        "recommendation": "Write unique meta descriptions that accurately reflect each page's content",
+        "how_to_fix": "Highlight what makes each page unique and include relevant keywords naturally",
+        "priority_score": 100
+      },
+      {
+        "rule_id": "META_003",
+        "title": "Title Tags Too Long",
+        "severity": "medium",
+        "category": "meta_tags",
+        "description": "7 pages have title tags longer than 60 characters",
+        "impact": "Long titles get truncated in search results, potentially cutting off important keywords.",
+        "affected_pages": [
+          "https://brutt.in/auth?view=signin (71 chars)",
+          "https://brutt.in/work-with-us (76 chars)",
+          "https://brutt.in/auth?view=signup (71 chars)",
+          "https://brutt.in/creations (71 chars)",
+          "https://brutt.in/terms (71 chars)",
+          "https://brutt.in/privacy-policy (71 chars)",
+          "https://brutt.in/about (74 chars)"
+        ],
+        "affected_count": 7,
+        "recommendation": "Shorten titles to 50-60 characters to prevent truncation",
+        "how_to_fix": "Put most important keywords first, remove filler words",
+        "priority_score": 85
+      },
+      {
+        "rule_id": "URL_002",
+        "title": "URLs with Query Parameters",
+        "severity": "medium",
+        "category": "technical",
+        "description": "2 pages have query parameters in URLs",
+        "impact": "URLs with parameters can create duplicate content and are less user-friendly.",
+        "affected_pages": [
+          "https://brutt.in/auth?view=signin",
+          "https://brutt.in/auth?view=signup"
+        ],
+        "affected_count": 2,
+        "recommendation": "Use clean URLs without parameters, or ensure proper canonical tags",
+        "how_to_fix": "Convert /page?id=123 to /page/product-name or use URL rewriting",
+        "priority_score": 60
+      }
+    ],
+    "low": [
+      {
+        "rule_id": "STRUCT_005",
+        "title": "H1 and Title Tag Mismatch",
+        "severity": "low",
+        "category": "structure",
+        "description": "10 pages have unrelated H1 and title tags",
+        "impact": "Mismatched H1 and titles can create confusion about page topic and dilute keyword focus.",
+        "affected_pages": [
+          "https://brutt.in → H1: \"Gifts That HoldMemories\" | Title: \"Custom Handcrafted Art & Personalized Gifts | Brutt\"",
+          "https://brutt.in/auth?view=signin → H1: \"Sign in to your Account\" | Title: \"Brutt - Custom Handcrafted Art & Personalized Gifts | Handmade in India\"",
+          "https://brutt.in/work-with-us → H1: \"Share Your Art.Reach the World.\" | Title: \"Work With Us - Become a Brutt Partner Artist | Turn Your Passion into Profit\"",
+          "https://brutt.in/auth?view=signup → H1: \"Create your Account\" | Title: \"Brutt - Custom Handcrafted Art & Personalized Gifts | Handmade in India\"",
+          "https://brutt.in/creations → H1: \"404\" | Title: \"Brutt - Custom Handcrafted Art & Personalized Gifts | Handmade in India\""
+        ],
+        "affected_count": 10,
+        "recommendation": "Align H1 and title tags to reinforce primary keyword and topic",
+        "how_to_fix": "Use similar keywords and phrasing in both H1 and title, but vary slightly for search diversity",
+        "priority_score": 50
+      },
+      {
+        "rule_id": "STRUCT_003",
+        "title": "H1 Tags Too Short",
+        "severity": "low",
+        "category": "structure",
+        "description": "5 pages have H1 tags shorter than 20 characters",
+        "impact": "Very short H1s may not adequately describe the page content or include target keywords.",
+        "affected_pages": [
+          "https://brutt.in/auth?view=signup → \"Create your Account\"",
+          "https://brutt.in/creations → \"404\"",
+          "https://brutt.in/terms → \"Terms of Service\"",
+          "https://brutt.in/privacy-policy → \"Privacy Policy\"",
+          "https://brutt.in/contact → \"Contact Us\""
+        ],
+        "affected_count": 5,
+        "recommendation": "Expand H1 tags to 20-70 characters with clear, keyword-rich descriptions",
+        "how_to_fix": "Include primary keyword and clear topic description",
+        "priority_score": 37
+      }
+    ],
+    "info": []
+  },
+  "issues_by_category": {
+    "technical": [
+      {
+        "rule_id": "TECH_002",
+        "title": "Incorrect Canonical URLs",
+        "severity": "critical",
+        "category": "technical",
+        "description": "8 pages have canonical URLs pointing elsewhere",
+        "impact": "Wrong canonicals tell Google to index a different page, causing these pages not to rank.",
+        "affected_pages": [
+          "https://brutt.in/auth?view=signin → https://brutt.in/",
+          "https://brutt.in/work-with-us → https://brutt.in/",
+          "https://brutt.in/auth?view=signup → https://brutt.in/",
+          "https://brutt.in/creations → https://brutt.in/",
+          "https://brutt.in/terms → https://brutt.in/",
+          "https://brutt.in/privacy-policy → https://brutt.in/",
+          "https://brutt.in/about → https://brutt.in/",
+          "https://brutt.in/contact → https://brutt.in/"
+        ],
+        "affected_count": 8,
+        "recommendation": "Set canonical URLs to self-reference unless intentionally consolidating duplicate content",
+        "how_to_fix": "<link rel=\"canonical\" href=\"https://domain.com/this-page\" />",
+        "priority_score": 180
+      },
+      {
+        "rule_id": "URL_002",
+        "title": "URLs with Query Parameters",
+        "severity": "medium",
+        "category": "technical",
+        "description": "2 pages have query parameters in URLs",
+        "impact": "URLs with parameters can create duplicate content and are less user-friendly.",
+        "affected_pages": [
+          "https://brutt.in/auth?view=signin",
+          "https://brutt.in/auth?view=signup"
+        ],
+        "affected_count": 2,
+        "recommendation": "Use clean URLs without parameters, or ensure proper canonical tags",
+        "how_to_fix": "Convert /page?id=123 to /page/product-name or use URL rewriting",
+        "priority_score": 60
+      }
+    ],
+    "content": [
+      {
+        "rule_id": "CONTENT_002",
+        "title": "Extremely Thin Content",
+        "severity": "critical",
+        "category": "content",
+        "description": "3 pages have less than 100 words",
+        "impact": "Pages with under 100 words provide minimal value and may be penalized by Google.",
+        "affected_pages": [
+          "https://brutt.in/auth?view=signin (46 words)",
+          "https://brutt.in/auth?view=signup (42 words)",
+          "https://brutt.in/creations (17 words)"
+        ],
+        "affected_count": 3,
+        "recommendation": "Either add substantial content (300+ words) or consider noindexing these pages",
+        "how_to_fix": "Consolidate with other pages or create comprehensive standalone content",
+        "priority_score": 130
+      },
+      {
+        "rule_id": "CONTENT_001",
+        "title": "Thin Content Pages",
+        "severity": "high",
+        "category": "content",
+        "description": "6 pages have less than 300 words",
+        "impact": "Thin content pages rarely rank well. Google favors comprehensive, valuable content.",
+        "affected_pages": [
+          "https://brutt.in/auth?view=signin (46 words)",
+          "https://brutt.in/auth?view=signup (42 words)",
+          "https://brutt.in/creations (17 words)",
+          "https://brutt.in/terms (212 words)",
+          "https://brutt.in/privacy-policy (210 words)",
+          "https://brutt.in/contact (133 words)"
+        ],
+        "affected_count": 6,
+        "recommendation": "Expand content to at least 300 words, ideally 600-1000+ for competitive topics",
+        "how_to_fix": "Add detailed explanations, examples, FAQs, and relevant supporting information",
+        "priority_score": 120
+      }
+    ],
+    "meta_tags": [
+      {
+        "rule_id": "META_004",
+        "title": "Duplicate Title Tags",
+        "severity": "high",
+        "category": "meta_tags",
+        "description": "7 pages share duplicate title tags",
+        "impact": "Duplicate titles confuse search engines about which page to rank, causing internal competition.",
+        "affected_pages": [
+          "https://brutt.in → \"Custom Handcrafted Art & Personalized Gifts | Brutt\"",
+          "https://brutt.in/auth?view=signin → \"Brutt - Custom Handcrafted Art & Personalized Gifts | Handmade in India\"",
+          "https://brutt.in/auth?view=signup → \"Brutt - Custom Handcrafted Art & Personalized Gifts | Handmade in India\"",
+          "https://brutt.in/creations → \"Brutt - Custom Handcrafted Art & Personalized Gifts | Handmade in India\"",
+          "https://brutt.in/ → \"Custom Handcrafted Art & Personalized Gifts | Brutt\"",
+          "https://brutt.in/terms → \"Brutt - Custom Handcrafted Art & Personalized Gifts | Handmade in India\"",
+          "https://brutt.in/privacy-policy → \"Brutt - Custom Handcrafted Art & Personalized Gifts | Handmade in India\""
+        ],
+        "affected_count": 7,
+        "recommendation": "Create unique title tags for each page that reflect its specific content",
+        "how_to_fix": "Include page-specific keywords and differentiate similar pages",
+        "priority_score": 127
+      },
+      {
+        "rule_id": "META_007",
+        "title": "Duplicate Meta Descriptions",
+        "severity": "medium",
+        "category": "meta_tags",
+        "description": "10 pages share duplicate meta descriptions",
+        "impact": "Duplicate descriptions reduce uniqueness and may lower click-through rates from search results.",
+        "affected_pages": [
+          "https://brutt.in",
+          "https://brutt.in/auth?view=signin",
+          "https://brutt.in/work-with-us",
+          "https://brutt.in/auth?view=signup",
+          "https://brutt.in/creations",
+          "https://brutt.in/",
+          "https://brutt.in/terms",
+          "https://brutt.in/privacy-policy",
+          "https://brutt.in/about",
+          "https://brutt.in/contact"
+        ],
+        "affected_count": 10,
+        "recommendation": "Write unique meta descriptions that accurately reflect each page's content",
+        "how_to_fix": "Highlight what makes each page unique and include relevant keywords naturally",
+        "priority_score": 100
+      },
+      {
+        "rule_id": "META_003",
+        "title": "Title Tags Too Long",
+        "severity": "medium",
+        "category": "meta_tags",
+        "description": "7 pages have title tags longer than 60 characters",
+        "impact": "Long titles get truncated in search results, potentially cutting off important keywords.",
+        "affected_pages": [
+          "https://brutt.in/auth?view=signin (71 chars)",
+          "https://brutt.in/work-with-us (76 chars)",
+          "https://brutt.in/auth?view=signup (71 chars)",
+          "https://brutt.in/creations (71 chars)",
+          "https://brutt.in/terms (71 chars)",
+          "https://brutt.in/privacy-policy (71 chars)",
+          "https://brutt.in/about (74 chars)"
+        ],
+        "affected_count": 7,
+        "recommendation": "Shorten titles to 50-60 characters to prevent truncation",
+        "how_to_fix": "Put most important keywords first, remove filler words",
+        "priority_score": 85
+      }
+    ],
+    "structure": [
+      {
+        "rule_id": "STRUCT_005",
+        "title": "H1 and Title Tag Mismatch",
+        "severity": "low",
+        "category": "structure",
+        "description": "10 pages have unrelated H1 and title tags",
+        "impact": "Mismatched H1 and titles can create confusion about page topic and dilute keyword focus.",
+        "affected_pages": [
+          "https://brutt.in → H1: \"Gifts That HoldMemories\" | Title: \"Custom Handcrafted Art & Personalized Gifts | Brutt\"",
+          "https://brutt.in/auth?view=signin → H1: \"Sign in to your Account\" | Title: \"Brutt - Custom Handcrafted Art & Personalized Gifts | Handmade in India\"",
+          "https://brutt.in/work-with-us → H1: \"Share Your Art.Reach the World.\" | Title: \"Work With Us - Become a Brutt Partner Artist | Turn Your Passion into Profit\"",
+          "https://brutt.in/auth?view=signup → H1: \"Create your Account\" | Title: \"Brutt - Custom Handcrafted Art & Personalized Gifts | Handmade in India\"",
+          "https://brutt.in/creations → H1: \"404\" | Title: \"Brutt - Custom Handcrafted Art & Personalized Gifts | Handmade in India\""
+        ],
+        "affected_count": 10,
+        "recommendation": "Align H1 and title tags to reinforce primary keyword and topic",
+        "how_to_fix": "Use similar keywords and phrasing in both H1 and title, but vary slightly for search diversity",
+        "priority_score": 50
+      },
+      {
+        "rule_id": "STRUCT_003",
+        "title": "H1 Tags Too Short",
+        "severity": "low",
+        "category": "structure",
+        "description": "5 pages have H1 tags shorter than 20 characters",
+        "impact": "Very short H1s may not adequately describe the page content or include target keywords.",
+        "affected_pages": [
+          "https://brutt.in/auth?view=signup → \"Create your Account\"",
+          "https://brutt.in/creations → \"404\"",
+          "https://brutt.in/terms → \"Terms of Service\"",
+          "https://brutt.in/privacy-policy → \"Privacy Policy\"",
+          "https://brutt.in/contact → \"Contact Us\""
+        ],
+        "affected_count": 5,
+        "recommendation": "Expand H1 tags to 20-70 characters with clear, keyword-rich descriptions",
+        "how_to_fix": "Include primary keyword and clear topic description",
+        "priority_score": 37
+      }
+    ]
+  },
+  "top_priorities": [
+    {
+      "rule_id": "TECH_002",
+      "title": "Incorrect Canonical URLs",
+      "severity": "critical",
+      "category": "technical",
+      "description": "8 pages have canonical URLs pointing elsewhere",
+      "impact": "Wrong canonicals tell Google to index a different page, causing these pages not to rank.",
+      "affected_pages": [
+        "https://brutt.in/auth?view=signin → https://brutt.in/",
+        "https://brutt.in/work-with-us → https://brutt.in/",
+        "https://brutt.in/auth?view=signup → https://brutt.in/",
+        "https://brutt.in/creations → https://brutt.in/",
+        "https://brutt.in/terms → https://brutt.in/",
+        "https://brutt.in/privacy-policy → https://brutt.in/",
+        "https://brutt.in/about → https://brutt.in/",
+        "https://brutt.in/contact → https://brutt.in/"
+      ],
+      "affected_count": 8,
+      "recommendation": "Set canonical URLs to self-reference unless intentionally consolidating duplicate content",
+      "how_to_fix": "<link rel=\"canonical\" href=\"https://domain.com/this-page\" />",
+      "priority_score": 180
+    },
+    {
+      "rule_id": "CONTENT_002",
+      "title": "Extremely Thin Content",
+      "severity": "critical",
+      "category": "content",
+      "description": "3 pages have less than 100 words",
+      "impact": "Pages with under 100 words provide minimal value and may be penalized by Google.",
+      "affected_pages": [
+        "https://brutt.in/auth?view=signin (46 words)",
+        "https://brutt.in/auth?view=signup (42 words)",
+        "https://brutt.in/creations (17 words)"
+      ],
+      "affected_count": 3,
+      "recommendation": "Either add substantial content (300+ words) or consider noindexing these pages",
+      "how_to_fix": "Consolidate with other pages or create comprehensive standalone content",
+      "priority_score": 130
+    },
+    {
+      "rule_id": "META_004",
+      "title": "Duplicate Title Tags",
+      "severity": "high",
+      "category": "meta_tags",
+      "description": "7 pages share duplicate title tags",
+      "impact": "Duplicate titles confuse search engines about which page to rank, causing internal competition.",
+      "affected_pages": [
+        "https://brutt.in → \"Custom Handcrafted Art & Personalized Gifts | Brutt\"",
+        "https://brutt.in/auth?view=signin → \"Brutt - Custom Handcrafted Art & Personalized Gifts | Handmade in India\"",
+        "https://brutt.in/auth?view=signup → \"Brutt - Custom Handcrafted Art & Personalized Gifts | Handmade in India\"",
+        "https://brutt.in/creations → \"Brutt - Custom Handcrafted Art & Personalized Gifts | Handmade in India\"",
+        "https://brutt.in/ → \"Custom Handcrafted Art & Personalized Gifts | Brutt\"",
+        "https://brutt.in/terms → \"Brutt - Custom Handcrafted Art & Personalized Gifts | Handmade in India\"",
+        "https://brutt.in/privacy-policy → \"Brutt - Custom Handcrafted Art & Personalized Gifts | Handmade in India\""
+      ],
+      "affected_count": 7,
+      "recommendation": "Create unique title tags for each page that reflect its specific content",
+      "how_to_fix": "Include page-specific keywords and differentiate similar pages",
+      "priority_score": 127
+    },
+    {
+      "rule_id": "CONTENT_001",
+      "title": "Thin Content Pages",
+      "severity": "high",
+      "category": "content",
+      "description": "6 pages have less than 300 words",
+      "impact": "Thin content pages rarely rank well. Google favors comprehensive, valuable content.",
+      "affected_pages": [
+        "https://brutt.in/auth?view=signin (46 words)",
+        "https://brutt.in/auth?view=signup (42 words)",
+        "https://brutt.in/creations (17 words)",
+        "https://brutt.in/terms (212 words)",
+        "https://brutt.in/privacy-policy (210 words)",
+        "https://brutt.in/contact (133 words)"
+      ],
+      "affected_count": 6,
+      "recommendation": "Expand content to at least 300 words, ideally 600-1000+ for competitive topics",
+      "how_to_fix": "Add detailed explanations, examples, FAQs, and relevant supporting information",
+      "priority_score": 120
+    },
+    {
+      "rule_id": "META_007",
+      "title": "Duplicate Meta Descriptions",
+      "severity": "medium",
+      "category": "meta_tags",
+      "description": "10 pages share duplicate meta descriptions",
+      "impact": "Duplicate descriptions reduce uniqueness and may lower click-through rates from search results.",
+      "affected_pages": [
+        "https://brutt.in",
+        "https://brutt.in/auth?view=signin",
+        "https://brutt.in/work-with-us",
+        "https://brutt.in/auth?view=signup",
+        "https://brutt.in/creations",
+        "https://brutt.in/",
+        "https://brutt.in/terms",
+        "https://brutt.in/privacy-policy",
+        "https://brutt.in/about",
+        "https://brutt.in/contact"
+      ],
+      "affected_count": 10,
+      "recommendation": "Write unique meta descriptions that accurately reflect each page's content",
+      "how_to_fix": "Highlight what makes each page unique and include relevant keywords naturally",
+      "priority_score": 100
+    },
+    {
+      "rule_id": "META_003",
+      "title": "Title Tags Too Long",
+      "severity": "medium",
+      "category": "meta_tags",
+      "description": "7 pages have title tags longer than 60 characters",
+      "impact": "Long titles get truncated in search results, potentially cutting off important keywords.",
+      "affected_pages": [
+        "https://brutt.in/auth?view=signin (71 chars)",
+        "https://brutt.in/work-with-us (76 chars)",
+        "https://brutt.in/auth?view=signup (71 chars)",
+        "https://brutt.in/creations (71 chars)",
+        "https://brutt.in/terms (71 chars)",
+        "https://brutt.in/privacy-policy (71 chars)",
+        "https://brutt.in/about (74 chars)"
+      ],
+      "affected_count": 7,
+      "recommendation": "Shorten titles to 50-60 characters to prevent truncation",
+      "how_to_fix": "Put most important keywords first, remove filler words",
+      "priority_score": 85
+    },
+    {
+      "rule_id": "URL_002",
+      "title": "URLs with Query Parameters",
+      "severity": "medium",
+      "category": "technical",
+      "description": "2 pages have query parameters in URLs",
+      "impact": "URLs with parameters can create duplicate content and are less user-friendly.",
+      "affected_pages": [
+        "https://brutt.in/auth?view=signin",
+        "https://brutt.in/auth?view=signup"
+      ],
+      "affected_count": 2,
+      "recommendation": "Use clean URLs without parameters, or ensure proper canonical tags",
+      "how_to_fix": "Convert /page?id=123 to /page/product-name or use URL rewriting",
+      "priority_score": 60
+    },
+    {
+      "rule_id": "STRUCT_005",
+      "title": "H1 and Title Tag Mismatch",
+      "severity": "low",
+      "category": "structure",
+      "description": "10 pages have unrelated H1 and title tags",
+      "impact": "Mismatched H1 and titles can create confusion about page topic and dilute keyword focus.",
+      "affected_pages": [
+        "https://brutt.in → H1: \"Gifts That HoldMemories\" | Title: \"Custom Handcrafted Art & Personalized Gifts | Brutt\"",
+        "https://brutt.in/auth?view=signin → H1: \"Sign in to your Account\" | Title: \"Brutt - Custom Handcrafted Art & Personalized Gifts | Handmade in India\"",
+        "https://brutt.in/work-with-us → H1: \"Share Your Art.Reach the World.\" | Title: \"Work With Us - Become a Brutt Partner Artist | Turn Your Passion into Profit\"",
+        "https://brutt.in/auth?view=signup → H1: \"Create your Account\" | Title: \"Brutt - Custom Handcrafted Art & Personalized Gifts | Handmade in India\"",
+        "https://brutt.in/creations → H1: \"404\" | Title: \"Brutt - Custom Handcrafted Art & Personalized Gifts | Handmade in India\""
+      ],
+      "affected_count": 10,
+      "recommendation": "Align H1 and title tags to reinforce primary keyword and topic",
+      "how_to_fix": "Use similar keywords and phrasing in both H1 and title, but vary slightly for search diversity",
+      "priority_score": 50
+    },
+    {
+      "rule_id": "STRUCT_003",
+      "title": "H1 Tags Too Short",
+      "severity": "low",
+      "category": "structure",
+      "description": "5 pages have H1 tags shorter than 20 characters",
+      "impact": "Very short H1s may not adequately describe the page content or include target keywords.",
+      "affected_pages": [
+        "https://brutt.in/auth?view=signup → \"Create your Account\"",
+        "https://brutt.in/creations → \"404\"",
+        "https://brutt.in/terms → \"Terms of Service\"",
+        "https://brutt.in/privacy-policy → \"Privacy Policy\"",
+        "https://brutt.in/contact → \"Contact Us\""
+      ],
+      "affected_count": 5,
+      "recommendation": "Expand H1 tags to 20-70 characters with clear, keyword-rich descriptions",
+      "how_to_fix": "Include primary keyword and clear topic description",
+      "priority_score": 37
+    }
+  ],
+  "quick_wins": []
+}

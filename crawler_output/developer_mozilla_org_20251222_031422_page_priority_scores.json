@@ -1,0 +1,2692 @@
+[
+  {
+    "url": "https://developer.mozilla.org/en-US",
+    "priority_score": 0.265,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.4,
+      "indexability_score": 0.6,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "priority_score": 0.39,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.58,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+    "priority_score": 0.422,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.71,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+    "priority_score": 0.408,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.65,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes",
+    "priority_score": 0.417,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.69,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
+    "priority_score": 0.357,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.45,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images",
+    "priority_score": 0.405,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.64,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Cheatsheet",
+    "priority_score": 0.37,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.5,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Date_and_time_formats",
+    "priority_score": 0.413,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.67,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides",
+    "priority_score": 0.385,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.56,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG",
+    "priority_score": 0.385,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.56,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/MathML",
+    "priority_score": 0.39,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.58,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/XML",
+    "priority_score": 0.35,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.42,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    "priority_score": 0.385,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.56,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties",
+    "priority_score": 0.425,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.72,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors",
+    "priority_score": 0.352,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.43,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules",
+    "priority_score": 0.37,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.5,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values",
+    "priority_score": 0.267,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.41,
+      "indexability_score": 0.6,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference",
+    "priority_score": 0.435,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.76,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Box_model/Introduction",
+    "priority_score": 0.375,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.52,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Animations/Using",
+    "priority_score": 0.41,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.66,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts",
+    "priority_score": 0.413,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.67,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Applying_color",
+    "priority_score": 0.408,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.65,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides",
+    "priority_score": 0.413,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.67,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Column_layouts",
+    "priority_score": 0.393,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.59,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Center_an_element",
+    "priority_score": 0.375,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.52,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Card",
+    "priority_score": 0.385,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.56,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook",
+    "priority_score": 0.367,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.49,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "priority_score": 0.395,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.6,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects",
+    "priority_score": 0.383,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.55,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators",
+    "priority_score": 0.408,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.65,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements",
+    "priority_score": 0.398,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.61,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions",
+    "priority_score": 0.413,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.67,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference",
+    "priority_score": 0.398,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.61,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling",
+    "priority_score": 0.405,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.64,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration",
+    "priority_score": 0.413,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.67,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_objects",
+    "priority_score": 0.413,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.67,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_classes",
+    "priority_score": 0.41,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.66,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+    "priority_score": 0.375,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.52,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API",
+    "priority_score": 0.413,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.67,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web",
+    "priority_score": 0.385,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.56,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
+    "priority_score": 0.393,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.59,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+    "priority_score": 0.4,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.62,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/URI",
+    "priority_score": 0.365,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.48,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions",
+    "priority_score": 0.38,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.54,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/WebAssembly",
+    "priority_score": 0.405,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.64,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/WebDriver",
+    "priority_score": 0.378,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.53,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Media",
+    "priority_score": 0.395,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.6,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Performance",
+    "priority_score": 0.408,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.65,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Privacy",
+    "priority_score": 0.0,
+    "priority_tier": "IGNORE",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Auto-demoted (utility/legal/redirect page)",
+    "fix_categories": [],
+    "quick_wins": [],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.65,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Security",
+    "priority_score": 0.41,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.66,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+    "priority_score": 0.4,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.62,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+    "priority_score": 0.39,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.58,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started",
+    "priority_score": 0.367,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.49,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core",
+    "priority_score": 0.39,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.58,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/curriculum",
+    "priority_score": 0.378,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.53,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content",
+    "priority_score": 0.4,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.62,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics",
+    "priority_score": 0.4,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.62,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout",
+    "priority_score": 0.393,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.59,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting",
+    "priority_score": 0.4,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.62,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/play",
+    "priority_score": 0.217,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.21,
+      "indexability_score": 0.6,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/observatory",
+    "priority_score": 0.255,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.36,
+      "indexability_score": 0.6,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-image_generator",
+    "priority_score": 0.253,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.35,
+      "indexability_score": 0.6,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-radius_generator",
+    "priority_score": 0.253,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.35,
+      "indexability_score": 0.6,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator",
+    "priority_score": 0.365,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.48,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_format_converter",
+    "priority_score": 0.35,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.42,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_mixer",
+    "priority_score": 0.347,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.41,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shapes/Shape_generator",
+    "priority_score": 0.347,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.41,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/about",
+    "priority_score": 0.398,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.61,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/advertising",
+    "priority_score": 0.347,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.41,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/community",
+    "priority_score": 0.385,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.56,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/blog",
+    "priority_score": 0.247,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.33,
+      "indexability_score": 0.6,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/blog/mdn-turns-20",
+    "priority_score": 0.347,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add 2-3 more internal links from cluster hubs"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.41,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Resource_management",
+    "priority_score": 0.435,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [],
+    "quick_wins": [],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.76,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/blog/launching-new-front-end",
+    "priority_score": 0.332,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add 2-3 more internal links from cluster hubs"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.35,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/blog/image-formats-pixels-graphics",
+    "priority_score": 0.393,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add 2-3 more internal links from cluster hubs"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.59,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/blog/color-models-humans-devices",
+    "priority_score": 0.395,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [],
+    "quick_wins": [],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.6,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/blog/h1-element-styles",
+    "priority_score": 0.367,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add 2-3 more internal links from cluster hubs"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.49,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/community/spotlight/shrinivass-arunachalam-balasubramanian",
+    "priority_score": 0.365,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.48,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/",
+    "priority_score": 0.232,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.27,
+      "indexability_score": 0.6,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/plus",
+    "priority_score": 0.357,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.45,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/MDN/Community",
+    "priority_score": 0.355,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add 2-3 more internal links from cluster hubs"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.44,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines",
+    "priority_score": 0.36,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add 2-3 more internal links from cluster hubs"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.46,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/discord",
+    "priority_score": 0.217,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.21,
+      "indexability_score": 0.6,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/MDN/Guides",
+    "priority_score": 0.393,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add 2-3 more internal links from cluster hubs"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.59,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/MDN/Tutorials",
+    "priority_score": 0.388,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links"
+    ],
+    "quick_wins": [
+      "Add 2-3 more internal links from cluster hubs"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.57,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Glossary",
+    "priority_score": 0.242,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add 2-3 more internal links from cluster hubs"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.31,
+      "indexability_score": 0.6,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+    "priority_score": 0.398,
+    "priority_tier": "LOW",
+    "estimated_impact": "LOW",
+    "effort_level": "HIGH",
+    "primary_reason": "Low priority optimization",
+    "fix_categories": [
+      "internal_links",
+      "content_quality"
+    ],
+    "quick_wins": [
+      "Add internal links from related pages"
+    ],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.61,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/head",
+    "priority_score": 0.403,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [],
+    "quick_wins": [],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.63,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/title",
+    "priority_score": 0.435,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [],
+    "quick_wins": [],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.76,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/body",
+    "priority_score": 0.438,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [],
+    "quick_wins": [],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.77,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/header",
+    "priority_score": 0.422,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [],
+    "quick_wins": [],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.71,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/footer",
+    "priority_score": 0.41,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [],
+    "quick_wins": [],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.66,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/article",
+    "priority_score": 0.413,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [],
+    "quick_wins": [],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.67,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/section",
+    "priority_score": 0.435,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [],
+    "quick_wins": [],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.76,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/p",
+    "priority_score": 0.425,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [],
+    "quick_wins": [],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.72,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/div",
+    "priority_score": 0.42,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [],
+    "quick_wins": [],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.7,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/span",
+    "priority_score": 0.41,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [],
+    "quick_wins": [],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.66,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img",
+    "priority_score": 0.457,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [],
+    "quick_wins": [],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.85,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/aside",
+    "priority_score": 0.405,
+    "priority_tier": "MEDIUM",
+    "estimated_impact": "LOW",
+    "effort_level": "LOW",
+    "primary_reason": "Moderate optimization potential",
+    "fix_categories": [],
+    "quick_wins": [],
+    "score_breakdown": {
+      "authority_score": 0.0,
+      "quality_score": 0.64,
+      "indexability_score": 1.0,
+      "canonical_health": 0.3,
+      "crawl_waste_penalty": 0.0
+    },
+    "inputs_used": {
+      "has_quality_data": true,
+      "has_indexability_data": true,
+      "has_link_graph_data": false,
+      "has_canonical_data": true
+    }
+  }
+]

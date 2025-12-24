@@ -1,0 +1,12 @@
+{
+  "total_pages": 100,
+  "priority_distribution": {
+    "LOW": 60,
+    "MEDIUM": 39,
+    "IGNORE": 1
+  },
+  "top_opportunity_types": {
+    "internal_links": 85,
+    "content_quality": 50
+  }
+}

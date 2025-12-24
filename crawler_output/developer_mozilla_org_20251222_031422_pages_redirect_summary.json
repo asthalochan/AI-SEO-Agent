@@ -1,0 +1,19 @@
+{
+  "total_urls": 400,
+  "redirecting_urls": 192,
+  "redirect_efficiency_score": 0.52,
+  "chains": 24,
+  "loops": 0,
+  "internal_links_to_redirects": 0,
+  "canonical_conflicts": 0,
+  "canonical_vs_redirect_breakdown": {
+    "ok": 400,
+    "canonical_to_redirect": 0,
+    "redirect_to_canonical": 0
+  },
+  "total_issues": 134,
+  "issues_by_severity": {
+    "medium": 33,
+    "high": 101
+  }
+}

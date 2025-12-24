@@ -1,0 +1,940 @@
+{
+  "https://developer.mozilla.org/en-US": {
+    "cluster_id": "4b2189947724",
+    "canonical_leader": "https://developer.mozilla.org/en-US",
+    "is_canonical": true,
+    "issues": [
+      "WRONG_CANONICAL",
+      "AUTHORITY_LEAKAGE",
+      "SOFT_DUPLICATE_CONTENT"
+    ],
+    "severity": "high",
+    "fix_priority": 4,
+    "recommended_action": "Canonical mismatch: Site declares 'https://developer.mozilla.org/en-US/' but optimal is 'https://developer.mozilla.org/en-US'. Update canonical tags on 2 pages to point to: https://developer.mozilla.org/en-US"
+  },
+  "https://developer.mozilla.org/": {
+    "cluster_id": "4b2189947724",
+    "canonical_leader": "https://developer.mozilla.org/en-US",
+    "is_canonical": false,
+    "issues": [
+      "WRONG_CANONICAL",
+      "AUTHORITY_LEAKAGE",
+      "SOFT_DUPLICATE_CONTENT"
+    ],
+    "severity": "high",
+    "fix_priority": 4,
+    "recommended_action": "Canonical mismatch: Site declares 'https://developer.mozilla.org/en-US/' but optimal is 'https://developer.mozilla.org/en-US'. Update canonical tags on 2 pages to point to: https://developer.mozilla.org/en-US"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/HTML": {
+    "cluster_id": "3780fe697bcd",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements": {
+    "cluster_id": "70c546a33860",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes": {
+    "cluster_id": "2d641698cb50",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes": {
+    "cluster_id": "a96fe48ea8b8",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference": {
+    "cluster_id": "d02734e12864",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images": {
+    "cluster_id": "2192931b23de",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Cheatsheet": {
+    "cluster_id": "640efea289af",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Cheatsheet",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Date_and_time_formats": {
+    "cluster_id": "4041db3f7548",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Date_and_time_formats",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides": {
+    "cluster_id": "2815892b32ab",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/SVG": {
+    "cluster_id": "71f1cfecf386",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/SVG",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/MathML": {
+    "cluster_id": "cdb1e1c7074b",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/MathML",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/XML": {
+    "cluster_id": "c06c6c6cafb0",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/XML",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/CSS": {
+    "cluster_id": "48474e8ec22c",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties": {
+    "cluster_id": "89200a27e8a2",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors": {
+    "cluster_id": "3fe140d9f053",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules": {
+    "cluster_id": "093479b43fdf",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values": {
+    "cluster_id": "7dbb5a322678",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference": {
+    "cluster_id": "1a947a8f50fb",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Box_model/Introduction": {
+    "cluster_id": "b1639d16c634",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Box_model/Introduction",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Animations/Using": {
+    "cluster_id": "bca3772469b0",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Animations/Using",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts": {
+    "cluster_id": "7895e2b49318",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Applying_color": {
+    "cluster_id": "2c873221e8e6",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Applying_color",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides": {
+    "cluster_id": "8c4b3650ca02",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Column_layouts": {
+    "cluster_id": "b696d394a4d6",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Column_layouts",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Center_an_element": {
+    "cluster_id": "142cb13163ec",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Center_an_element",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Card": {
+    "cluster_id": "68e798578e1f",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Card",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook": {
+    "cluster_id": "59d775d4e4f9",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/JavaScript": {
+    "cluster_id": "a0b24c88bb0b",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects": {
+    "cluster_id": "d4b09cb3e361",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators": {
+    "cluster_id": "754b2ac3abac",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements": {
+    "cluster_id": "dcb7aebc731d",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions": {
+    "cluster_id": "eae0a6ad021c",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference": {
+    "cluster_id": "4242d64b6940",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling": {
+    "cluster_id": "df1755d4ae31",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration": {
+    "cluster_id": "5ae17be0a462",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_objects": {
+    "cluster_id": "9916cfb51f3c",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_objects",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_classes": {
+    "cluster_id": "83ebf74ba5e3",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_classes",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide": {
+    "cluster_id": "d2903a3afaff",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/API": {
+    "cluster_id": "ba7df5604570",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/API",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web": {
+    "cluster_id": "8eb951afe054",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/Accessibility": {
+    "cluster_id": "527783b7b7f6",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/HTTP": {
+    "cluster_id": "8693c48b8ec1",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/URI": {
+    "cluster_id": "7a8eeab33040",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/URI",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions": {
+    "cluster_id": "2885c7ae0a9f",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/WebAssembly": {
+    "cluster_id": "a31b77e46a88",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/WebAssembly",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/WebDriver": {
+    "cluster_id": "6dde1c44befd",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/WebDriver",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/Media": {
+    "cluster_id": "4b223bc5b2cc",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/Media",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/Performance": {
+    "cluster_id": "6580738486c3",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/Performance",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/Privacy": {
+    "cluster_id": "89fd281ba549",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/Privacy",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/Security": {
+    "cluster_id": "56217db1dc5a",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/Security",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps": {
+    "cluster_id": "7a2006b802ce",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Learn_web_development": {
+    "cluster_id": "550f130e17ec",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started": {
+    "cluster_id": "600257f26b76",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core": {
+    "cluster_id": "f015a6fe0af0",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/curriculum": {
+    "cluster_id": "da68103f588d",
+    "canonical_leader": "https://developer.mozilla.org/en-US/curriculum",
+    "is_canonical": true,
+    "issues": [
+      "WRONG_CANONICAL"
+    ],
+    "severity": "high",
+    "fix_priority": 4,
+    "recommended_action": "Canonical mismatch: Site declares 'https://developer.mozilla.org/en-US/curriculum/' but optimal is 'https://developer.mozilla.org/en-US/curriculum'. Update canonical tags on 1 pages to point to: https://developer.mozilla.org/en-US/curriculum"
+  },
+  "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content": {
+    "cluster_id": "552b6fd7946f",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics": {
+    "cluster_id": "fc15aa442696",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout": {
+    "cluster_id": "7f339b7e0cc4",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting": {
+    "cluster_id": "9b5457633268",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/play": {
+    "cluster_id": "9f997bbc8403",
+    "canonical_leader": "https://developer.mozilla.org/en-US/play",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/observatory": {
+    "cluster_id": "2182476c7c13",
+    "canonical_leader": "https://developer.mozilla.org/en-US/observatory",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-image_generator": {
+    "cluster_id": "f59efb462dde",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-image_generator",
+    "is_canonical": true,
+    "issues": [
+      "WRONG_CANONICAL"
+    ],
+    "severity": "high",
+    "fix_priority": 4,
+    "recommended_action": "Canonical mismatch: Site declares 'https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-image_generator' but optimal is 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-image_generator'. Update canonical tags on 1 pages to point to: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-image_generator"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-radius_generator": {
+    "cluster_id": "2d4b13b318a3",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-radius_generator",
+    "is_canonical": true,
+    "issues": [
+      "WRONG_CANONICAL"
+    ],
+    "severity": "high",
+    "fix_priority": 4,
+    "recommended_action": "Canonical mismatch: Site declares 'https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-radius_generator' but optimal is 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-radius_generator'. Update canonical tags on 1 pages to point to: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-radius_generator"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator": {
+    "cluster_id": "a84d6a63ec61",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator",
+    "is_canonical": true,
+    "issues": [
+      "WRONG_CANONICAL"
+    ],
+    "severity": "high",
+    "fix_priority": 4,
+    "recommended_action": "Canonical mismatch: Site declares 'https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Box-shadow_generator' but optimal is 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator'. Update canonical tags on 1 pages to point to: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_format_converter": {
+    "cluster_id": "74378e20ad03",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_format_converter",
+    "is_canonical": true,
+    "issues": [
+      "WRONG_CANONICAL"
+    ],
+    "severity": "high",
+    "fix_priority": 4,
+    "recommended_action": "Canonical mismatch: Site declares 'https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Color_format_converter' but optimal is 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_format_converter'. Update canonical tags on 1 pages to point to: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_format_converter"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_mixer": {
+    "cluster_id": "2540a97d8411",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_mixer",
+    "is_canonical": true,
+    "issues": [
+      "WRONG_CANONICAL"
+    ],
+    "severity": "high",
+    "fix_priority": 4,
+    "recommended_action": "Canonical mismatch: Site declares 'https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Color_mixer' but optimal is 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_mixer'. Update canonical tags on 1 pages to point to: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_mixer"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shapes/Shape_generator": {
+    "cluster_id": "5228b4c4e5f9",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shapes/Shape_generator",
+    "is_canonical": true,
+    "issues": [
+      "WRONG_CANONICAL"
+    ],
+    "severity": "high",
+    "fix_priority": 4,
+    "recommended_action": "Canonical mismatch: Site declares 'https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Shapes/Shape_generator' but optimal is 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shapes/Shape_generator'. Update canonical tags on 1 pages to point to: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shapes/Shape_generator"
+  },
+  "https://developer.mozilla.org/en-US/about": {
+    "cluster_id": "6497ffa41ad7",
+    "canonical_leader": "https://developer.mozilla.org/en-US/about",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/advertising": {
+    "cluster_id": "78e75005184c",
+    "canonical_leader": "https://developer.mozilla.org/en-US/advertising",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/community": {
+    "cluster_id": "5586a4637661",
+    "canonical_leader": "https://developer.mozilla.org/en-US/community",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/blog": {
+    "cluster_id": "72c10423ec1a",
+    "canonical_leader": "https://developer.mozilla.org/en-US/blog",
+    "is_canonical": true,
+    "issues": [
+      "WRONG_CANONICAL"
+    ],
+    "severity": "high",
+    "fix_priority": 4,
+    "recommended_action": "Canonical mismatch: Site declares 'https://developer.mozilla.org/en-US/blog/' but optimal is 'https://developer.mozilla.org/en-US/blog'. Update canonical tags on 1 pages to point to: https://developer.mozilla.org/en-US/blog"
+  },
+  "https://developer.mozilla.org/en-US/blog/mdn-turns-20": {
+    "cluster_id": "68c04b32d68b",
+    "canonical_leader": "https://developer.mozilla.org/en-US/blog/mdn-turns-20",
+    "is_canonical": true,
+    "issues": [
+      "WRONG_CANONICAL"
+    ],
+    "severity": "high",
+    "fix_priority": 4,
+    "recommended_action": "Canonical mismatch: Site declares 'https://developer.mozilla.org/en-US/blog/mdn-turns-20/' but optimal is 'https://developer.mozilla.org/en-US/blog/mdn-turns-20'. Update canonical tags on 1 pages to point to: https://developer.mozilla.org/en-US/blog/mdn-turns-20"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Resource_management": {
+    "cluster_id": "1c61458e0ce2",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Resource_management",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/blog/launching-new-front-end": {
+    "cluster_id": "9dc0ed13d6ce",
+    "canonical_leader": "https://developer.mozilla.org/en-US/blog/launching-new-front-end",
+    "is_canonical": true,
+    "issues": [
+      "WRONG_CANONICAL"
+    ],
+    "severity": "high",
+    "fix_priority": 4,
+    "recommended_action": "Canonical mismatch: Site declares 'https://developer.mozilla.org/en-US/blog/launching-new-front-end/' but optimal is 'https://developer.mozilla.org/en-US/blog/launching-new-front-end'. Update canonical tags on 1 pages to point to: https://developer.mozilla.org/en-US/blog/launching-new-front-end"
+  },
+  "https://developer.mozilla.org/en-US/blog/image-formats-pixels-graphics": {
+    "cluster_id": "8da98e403d0d",
+    "canonical_leader": "https://developer.mozilla.org/en-US/blog/image-formats-pixels-graphics",
+    "is_canonical": true,
+    "issues": [
+      "WRONG_CANONICAL"
+    ],
+    "severity": "high",
+    "fix_priority": 4,
+    "recommended_action": "Canonical mismatch: Site declares 'https://developer.mozilla.org/en-US/blog/image-formats-pixels-graphics/' but optimal is 'https://developer.mozilla.org/en-US/blog/image-formats-pixels-graphics'. Update canonical tags on 1 pages to point to: https://developer.mozilla.org/en-US/blog/image-formats-pixels-graphics"
+  },
+  "https://developer.mozilla.org/en-US/blog/color-models-humans-devices": {
+    "cluster_id": "156592206a42",
+    "canonical_leader": "https://developer.mozilla.org/en-US/blog/color-models-humans-devices",
+    "is_canonical": true,
+    "issues": [
+      "WRONG_CANONICAL"
+    ],
+    "severity": "high",
+    "fix_priority": 4,
+    "recommended_action": "Canonical mismatch: Site declares 'https://developer.mozilla.org/en-US/blog/color-models-humans-devices/' but optimal is 'https://developer.mozilla.org/en-US/blog/color-models-humans-devices'. Update canonical tags on 1 pages to point to: https://developer.mozilla.org/en-US/blog/color-models-humans-devices"
+  },
+  "https://developer.mozilla.org/en-US/blog/h1-element-styles": {
+    "cluster_id": "b2a6c145b85b",
+    "canonical_leader": "https://developer.mozilla.org/en-US/blog/h1-element-styles",
+    "is_canonical": true,
+    "issues": [
+      "WRONG_CANONICAL"
+    ],
+    "severity": "high",
+    "fix_priority": 4,
+    "recommended_action": "Canonical mismatch: Site declares 'https://developer.mozilla.org/en-US/blog/h1-element-styles/' but optimal is 'https://developer.mozilla.org/en-US/blog/h1-element-styles'. Update canonical tags on 1 pages to point to: https://developer.mozilla.org/en-US/blog/h1-element-styles"
+  },
+  "https://developer.mozilla.org/en-US/community/spotlight/shrinivass-arunachalam-balasubramanian": {
+    "cluster_id": "6da3d2b63359",
+    "canonical_leader": "https://developer.mozilla.org/en-US/community/spotlight/shrinivass-arunachalam-balasubramanian",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/plus": {
+    "cluster_id": "6a92f7733688",
+    "canonical_leader": "https://developer.mozilla.org/en-US/plus",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/MDN/Community": {
+    "cluster_id": "7b7f34a848e9",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/MDN/Community",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines": {
+    "cluster_id": "262c3f5dae2d",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/discord": {
+    "cluster_id": "a9056cb7a993",
+    "canonical_leader": "https://developer.mozilla.org/discord",
+    "is_canonical": true,
+    "issues": [
+      "WRONG_CANONICAL"
+    ],
+    "severity": "high",
+    "fix_priority": 4,
+    "recommended_action": "Canonical mismatch: Site declares 'https://discord.com/invite/mdn-web-docs-community-1009925603572600863' but optimal is 'https://developer.mozilla.org/discord'. Update canonical tags on 1 pages to point to: https://developer.mozilla.org/discord"
+  },
+  "https://developer.mozilla.org/en-US/docs/MDN/Guides": {
+    "cluster_id": "942ec21a99f9",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/MDN/Guides",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/MDN/Tutorials": {
+    "cluster_id": "d1c5984e1980",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/MDN/Tutorials",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Glossary": {
+    "cluster_id": "35f8f6b7936d",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Glossary",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/docs/MDN/Writing_guidelines/Attrib_copyright_license": {
+    "cluster_id": "062ea29fc6e8",
+    "canonical_leader": "https://developer.mozilla.org/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+    "is_canonical": true,
+    "issues": [
+      "WRONG_CANONICAL"
+    ],
+    "severity": "high",
+    "fix_priority": 4,
+    "recommended_action": "Canonical mismatch: Site declares 'https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license' but optimal is 'https://developer.mozilla.org/docs/MDN/Writing_guidelines/Attrib_copyright_license'. Update canonical tags on 1 pages to point to: https://developer.mozilla.org/docs/MDN/Writing_guidelines/Attrib_copyright_license"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/head": {
+    "cluster_id": "45741ac732b2",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/head",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/title": {
+    "cluster_id": "f6a8195ba6a1",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/title",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/body": {
+    "cluster_id": "6b0bfcec67e1",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/body",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/header": {
+    "cluster_id": "13a41274c201",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/header",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/footer": {
+    "cluster_id": "0b75d80592d7",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/footer",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/article": {
+    "cluster_id": "c71ca137b833",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/article",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/section": {
+    "cluster_id": "d26ab1781553",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/section",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/p": {
+    "cluster_id": "b1b3f1833479",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/p",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/div": {
+    "cluster_id": "3aba8566f760",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/div",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/span": {
+    "cluster_id": "c3b8b05936b5",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/span",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img": {
+    "cluster_id": "22dfe792b398",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/aside": {
+    "cluster_id": "b8d7dff6c313",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/aside",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  }
+}

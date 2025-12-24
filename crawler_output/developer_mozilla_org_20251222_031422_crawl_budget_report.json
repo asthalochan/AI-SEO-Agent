@@ -1,0 +1,18 @@
+{
+  "total_urls": 100,
+  "indexable_urls": 90,
+  "wasted_crawl_urls": 0,
+  "crawl_efficiency_score": 0.9,
+  "crawl_budget_grade": "GOOD",
+  "waste_ratio": 0.0,
+  "waste_breakdown": {
+    "redirects": 0,
+    "canonicalized": 0,
+    "noindex": 0,
+    "blocked_by_robots": 0,
+    "duplicate_parameters": 0,
+    "thin_content": 0,
+    "non_indexable_with_links": 0
+  },
+  "top_waste_sources": []
+}
