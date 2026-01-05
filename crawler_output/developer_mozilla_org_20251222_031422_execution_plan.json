@@ -1,0 +1,2556 @@
+{
+  "tasks": [
+    {
+      "task_id": "TASK_082",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/body",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.226,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_066",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Resource_management",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.224,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_081",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/title",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.224,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_086",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/section",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.224,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_013",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.219,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_087",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/p",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.219,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_003",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.218,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_083",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/header",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.218,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_088",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/div",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.217,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_005",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.215,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_008",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Date_and_time_formats",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.213,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_019",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.213,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_029",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.213,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_031",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.213,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_032",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_objects",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.213,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_034",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.213,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_085",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/article",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.213,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_018",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Animations/Using",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.212,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_033",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_classes",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.212,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_044",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Security",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.212,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_084",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/footer",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.212,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_089",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/span",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.212,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_004",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.211,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_020",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Applying_color",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.211,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_027",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.211,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_043",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Performance",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.211,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_006",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.209,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_030",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.209,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_040",
+      "url": "https://developer.mozilla.org/en-US/docs/WebAssembly",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.209,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_090",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/aside",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.209,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_080",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/head",
+      "priority": "MEDIUM",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.208,
+      "expected_impact": "LOW",
+      "sprint": "Sprint 2",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_037",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+      "priority": "MEDIUM",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "CONTENT_EXPANSION",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.4,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.16,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_045",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+      "priority": "MEDIUM",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "CONTENT_EXPANSION",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.4,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.16,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_050",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content",
+      "priority": "MEDIUM",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "CONTENT_EXPANSION",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.4,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.16,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_051",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics",
+      "priority": "MEDIUM",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "CONTENT_EXPANSION",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.4,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.16,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_053",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting",
+      "priority": "MEDIUM",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 1.2,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "CONTENT_EXPANSION",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.4,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.16,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_068",
+      "url": "https://developer.mozilla.org/en-US/blog/image-formats-pixels-graphics",
+      "priority": "LOW",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.051,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_069",
+      "url": "https://developer.mozilla.org/en-US/blog/color-models-humans-devices",
+      "priority": "LOW",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.051,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_077",
+      "url": "https://developer.mozilla.org/en-US/docs/MDN/Tutorials",
+      "priority": "LOW",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.05,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_039",
+      "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions",
+      "priority": "LOW",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.049,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_041",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/WebDriver",
+      "priority": "LOW",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.049,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_049",
+      "url": "https://developer.mozilla.org/en-US/curriculum",
+      "priority": "LOW",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.049,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_007",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Cheatsheet",
+      "priority": "LOW",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.048,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_015",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules",
+      "priority": "LOW",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.048,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_017",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Box_model/Introduction",
+      "priority": "LOW",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.048,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_022",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Center_an_element",
+      "priority": "LOW",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.048,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_014",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors",
+      "priority": "LOW",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.045,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_025",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "CONTENT_EXPANSION",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.04,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_028",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "CONTENT_EXPANSION",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.04,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_042",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Media",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "CONTENT_EXPANSION",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.04,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_079",
+      "url": "https://developer.mozilla.org/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "CONTENT_EXPANSION",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.04,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_002",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "CONTENT_EXPANSION",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.039,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_009",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/SVG",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "CONTENT_EXPANSION",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.039,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_010",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/MathML",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "CONTENT_EXPANSION",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.039,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_012",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "CONTENT_EXPANSION",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.039,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_021",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Column_layouts",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "CONTENT_EXPANSION",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.039,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_023",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook/Card",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "CONTENT_EXPANSION",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.039,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_035",
+      "url": "https://developer.mozilla.org/en-US/docs/Web",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "CONTENT_EXPANSION",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.039,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_036",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "CONTENT_EXPANSION",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.039,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_046",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "CONTENT_EXPANSION",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.039,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_048",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "CONTENT_EXPANSION",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.039,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_052",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "CONTENT_EXPANSION",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.039,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_063",
+      "url": "https://developer.mozilla.org/en-US/community",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "CONTENT_EXPANSION",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.039,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_026",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "CONTENT_EXPANSION",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.038,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_024",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/How_to/Layout_cookbook",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "THIN_CONTENT",
+          "description": "Expand content to 800+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.037,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_047",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "THIN_CONTENT",
+          "description": "Expand content to 800+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.037,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_070",
+      "url": "https://developer.mozilla.org/en-US/blog/h1-element-styles",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "THIN_CONTENT",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.037,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_038",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/URI",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "THIN_CONTENT",
+          "description": "Expand content to 800+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.036,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_058",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "THIN_CONTENT",
+          "description": "Expand content to 800+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.036,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_071",
+      "url": "https://developer.mozilla.org/en-US/community/spotlight/shrinivass-arunachalam-balasubramanian",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "THIN_CONTENT",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.036,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_073",
+      "url": "https://developer.mozilla.org/en-US/plus",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "THIN_CONTENT",
+          "description": "Expand content to 800+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.036,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_075",
+      "url": "https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "THIN_CONTENT",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.036,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_011",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/XML",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "THIN_CONTENT",
+          "description": "Expand content to 800+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.035,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_059",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_format_converter",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "THIN_CONTENT",
+          "description": "Expand content to 800+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.035,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_060",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Color_mixer",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "THIN_CONTENT",
+          "description": "Expand content to 800+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.035,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_061",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shapes/Shape_generator",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "THIN_CONTENT",
+          "description": "Expand content to 800+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.035,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_062",
+      "url": "https://developer.mozilla.org/en-US/advertising",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "THIN_CONTENT",
+          "description": "Expand content to 800+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.035,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_065",
+      "url": "https://developer.mozilla.org/en-US/blog/mdn-turns-20",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "THIN_CONTENT",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.035,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_074",
+      "url": "https://developer.mozilla.org/en-US/docs/MDN/Community",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "THIN_CONTENT",
+          "description": "Expand content to 1200+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.035,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_016",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values",
+      "priority": "LOW",
+      "confidence": 0.43,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "LOW",
+      "estimated_time": "30m",
+      "execution_score": 0.034,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_067",
+      "url": "https://developer.mozilla.org/en-US/blog/launching-new-front-end",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "THIN_CONTENT",
+          "description": "Expand content to 800+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.033,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_001",
+      "url": "https://developer.mozilla.org/en-US",
+      "priority": "LOW",
+      "confidence": 0.58,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "THIN_CONTENT",
+          "description": "Expand content to 800+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        },
+        {
+          "type": "WEAK_LEADER",
+          "description": "Strengthen content or merge cluster",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Content",
+      "effort": "HIGH",
+      "estimated_time": "16.5h",
+      "execution_score": 0.026,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_055",
+      "url": "https://developer.mozilla.org/en-US/observatory",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "THIN_CONTENT",
+          "description": "Expand content to 800+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.026,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_056",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-image_generator",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "THIN_CONTENT",
+          "description": "Expand content to 800+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.025,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_057",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-radius_generator",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "THIN_CONTENT",
+          "description": "Expand content to 800+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.025,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_064",
+      "url": "https://developer.mozilla.org/en-US/blog",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "THIN_CONTENT",
+          "description": "Expand content to 800+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.025,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_078",
+      "url": "https://developer.mozilla.org/en-US/docs/Glossary",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "THIN_CONTENT",
+          "description": "Expand content to 800+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.024,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_054",
+      "url": "https://developer.mozilla.org/en-US/play",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "THIN_CONTENT",
+          "description": "Expand content to 800+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.022,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_072",
+      "url": "https://developer.mozilla.org/",
+      "priority": "LOW",
+      "confidence": 0.58,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "CANONICAL_CONSOLIDATE",
+          "description": "Consolidate content to cluster leader",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "THIN_CONTENT",
+          "description": "Expand content to 800+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "16.5h",
+      "execution_score": 0.022,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    },
+    {
+      "task_id": "TASK_076",
+      "url": "https://developer.mozilla.org/discord",
+      "priority": "LOW",
+      "confidence": 0.5,
+      "actions": [
+        {
+          "type": "CANONICAL_REDIRECT",
+          "description": "Update canonical to final HTTPS resolved URL",
+          "effort": "LOW",
+          "impact": "LOW",
+          "fix_score": 0.3,
+          "source_module": "canonical_clusters"
+        },
+        {
+          "type": "THIN_CONTENT",
+          "description": "Expand content to 800+ words",
+          "effort": "HIGH",
+          "impact": "LOW",
+          "fix_score": 0.1,
+          "source_module": "content_quality"
+        }
+      ],
+      "owner": "Engineering",
+      "effort": "HIGH",
+      "estimated_time": "8.5h",
+      "execution_score": 0.022,
+      "expected_impact": "LOW",
+      "sprint": "Backlog",
+      "expected_outcome": "canonical consolidation & content improvement",
+      "depends_on": []
+    }
+  ]
+}
