@@ -1,0 +1,301 @@
+[
+  {
+    "url": "https://developer.mozilla.org/",
+    "final_url": "https://developer.mozilla.org/",
+    "indexability_status": "INDEXABLE_BUT_NOT_ELIGIBLE",
+    "indexability_reason": "LOW_WORD_COUNT_41",
+    "indexability_reasons": [
+      "self_canonical",
+      "passes_redirect_resolution",
+      "allowed_by_robots",
+      "no_noindex_meta",
+      "returns_200"
+    ],
+    "indexable": true,
+    "crawlable": true,
+    "is_crawlable": true,
+    "seo_eligible": false,
+    "seo_exclusion_reasons": [
+      "low_internal_links",
+      "low_word_count_41"
+    ],
+    "blocking_factors": [
+      "low_word_count_41"
+    ],
+    "indexing_signals": {
+      "noindex": false,
+      "canonicalized": false,
+      "redirected": false,
+      "blocked_by_robots": false
+    },
+    "indexing_directive": {
+      "index": true,
+      "follow": true,
+      "source": "default"
+    },
+    "is_soft_404": false,
+    "nofollow_detected": false,
+    "canonical_info": {
+      "cluster_id": "4b2189947724",
+      "is_cluster_leader": true,
+      "canonical_target": null,
+      "canonical_chain_depth": 1,
+      "canonical_ignored": false
+    },
+    "crawl_budget_impact": {
+      "is_waste": false,
+      "waste_reason": null,
+      "internal_links_pointing": 0,
+      "cluster_size": 2,
+      "crawl_budget_score": 0.0
+    },
+    "quality_signals": {
+      "is_thin": false,
+      "word_count": 41,
+      "page_type": "content",
+      "content_depth": "LOW",
+      "content_type_conflict": false
+    },
+    "priority": "MEDIUM",
+    "indexability_priority": 0.0,
+    "severity_weight": 0.98,
+    "auto_severity": "MEDIUM",
+    "recommendation": "Improve content quality or use noindex"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US",
+    "final_url": "https://developer.mozilla.org/en-US",
+    "indexability_status": "INDEXABLE_BUT_NOT_ELIGIBLE",
+    "indexability_reason": "LOW_WORD_COUNT_41",
+    "indexability_reasons": [
+      "passes_redirect_resolution",
+      "allowed_by_robots",
+      "no_noindex_meta",
+      "returns_200"
+    ],
+    "indexable": true,
+    "crawlable": true,
+    "is_crawlable": true,
+    "seo_eligible": false,
+    "seo_exclusion_reasons": [
+      "low_internal_links",
+      "low_word_count_41"
+    ],
+    "blocking_factors": [
+      "low_word_count_41"
+    ],
+    "indexing_signals": {
+      "noindex": false,
+      "canonicalized": true,
+      "redirected": false,
+      "blocked_by_robots": false
+    },
+    "indexing_directive": {
+      "index": true,
+      "follow": true,
+      "source": "default"
+    },
+    "is_soft_404": true,
+    "nofollow_detected": false,
+    "canonical_info": {
+      "cluster_id": "4b2189947724",
+      "is_cluster_leader": false,
+      "canonical_target": "https://developer.mozilla.org/",
+      "canonical_chain_depth": 1,
+      "canonical_ignored": false
+    },
+    "crawl_budget_impact": {
+      "is_waste": false,
+      "waste_reason": null,
+      "internal_links_pointing": 0,
+      "cluster_size": 2,
+      "crawl_budget_score": 0.1
+    },
+    "quality_signals": {
+      "is_thin": false,
+      "word_count": 41,
+      "page_type": "content",
+      "content_depth": "LOW",
+      "content_type_conflict": false
+    },
+    "priority": "MEDIUM",
+    "indexability_priority": 0.14,
+    "severity_weight": 0.65,
+    "auto_severity": "MEDIUM",
+    "recommendation": "Improve content quality or use noindex"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "indexability_status": "INDEXABLE_AND_VALID",
+    "indexability_reason": null,
+    "indexability_reasons": [
+      "self_canonical",
+      "passes_redirect_resolution",
+      "allowed_by_robots",
+      "no_noindex_meta",
+      "returns_200"
+    ],
+    "indexable": true,
+    "crawlable": true,
+    "is_crawlable": true,
+    "seo_eligible": true,
+    "seo_exclusion_reasons": [],
+    "blocking_factors": [],
+    "indexing_signals": {
+      "noindex": false,
+      "canonicalized": false,
+      "redirected": false,
+      "blocked_by_robots": false
+    },
+    "indexing_directive": {
+      "index": true,
+      "follow": true,
+      "source": "default"
+    },
+    "is_soft_404": false,
+    "nofollow_detected": false,
+    "canonical_info": {
+      "cluster_id": "3780fe697bcd",
+      "is_cluster_leader": true,
+      "canonical_target": null,
+      "canonical_chain_depth": 0,
+      "canonical_ignored": false
+    },
+    "crawl_budget_impact": {
+      "is_waste": false,
+      "waste_reason": null,
+      "internal_links_pointing": 0,
+      "cluster_size": 1,
+      "crawl_budget_score": 0.0
+    },
+    "quality_signals": {
+      "is_thin": false,
+      "word_count": 1102,
+      "page_type": "content",
+      "content_depth": "HIGH",
+      "content_type_conflict": false
+    },
+    "priority": "LOW",
+    "indexability_priority": 0.0,
+    "severity_weight": 0.75,
+    "auto_severity": "LOW",
+    "recommendation": "Keep indexed"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+    "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+    "indexability_status": "INDEXABLE_AND_VALID",
+    "indexability_reason": null,
+    "indexability_reasons": [
+      "self_canonical",
+      "passes_redirect_resolution",
+      "allowed_by_robots",
+      "no_noindex_meta",
+      "returns_200"
+    ],
+    "indexable": true,
+    "crawlable": true,
+    "is_crawlable": true,
+    "seo_eligible": true,
+    "seo_exclusion_reasons": [],
+    "blocking_factors": [],
+    "indexing_signals": {
+      "noindex": false,
+      "canonicalized": false,
+      "redirected": false,
+      "blocked_by_robots": false
+    },
+    "indexing_directive": {
+      "index": true,
+      "follow": true,
+      "source": "default"
+    },
+    "is_soft_404": false,
+    "nofollow_detected": false,
+    "canonical_info": {
+      "cluster_id": "70c546a33860",
+      "is_cluster_leader": true,
+      "canonical_target": null,
+      "canonical_chain_depth": 0,
+      "canonical_ignored": false
+    },
+    "crawl_budget_impact": {
+      "is_waste": false,
+      "waste_reason": null,
+      "internal_links_pointing": 0,
+      "cluster_size": 1,
+      "crawl_budget_score": 0.0
+    },
+    "quality_signals": {
+      "is_thin": false,
+      "word_count": 4557,
+      "page_type": "api_reference",
+      "content_depth": "HIGH",
+      "content_type_conflict": false
+    },
+    "priority": "LOW",
+    "indexability_priority": 0.0,
+    "severity_weight": 0.52,
+    "auto_severity": "LOW",
+    "recommendation": "Keep indexed"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+    "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+    "indexability_status": "INDEXABLE_AND_VALID",
+    "indexability_reason": null,
+    "indexability_reasons": [
+      "self_canonical",
+      "passes_redirect_resolution",
+      "allowed_by_robots",
+      "no_noindex_meta",
+      "returns_200"
+    ],
+    "indexable": true,
+    "crawlable": true,
+    "is_crawlable": true,
+    "seo_eligible": true,
+    "seo_exclusion_reasons": [],
+    "blocking_factors": [],
+    "indexing_signals": {
+      "noindex": false,
+      "canonicalized": false,
+      "redirected": false,
+      "blocked_by_robots": false
+    },
+    "indexing_directive": {
+      "index": true,
+      "follow": true,
+      "source": "default"
+    },
+    "is_soft_404": false,
+    "nofollow_detected": false,
+    "canonical_info": {
+      "cluster_id": "2d641698cb50",
+      "is_cluster_leader": true,
+      "canonical_target": null,
+      "canonical_chain_depth": 0,
+      "canonical_ignored": false
+    },
+    "crawl_budget_impact": {
+      "is_waste": false,
+      "waste_reason": null,
+      "internal_links_pointing": 0,
+      "cluster_size": 1,
+      "crawl_budget_score": 0.0
+    },
+    "quality_signals": {
+      "is_thin": false,
+      "word_count": 2098,
+      "page_type": "api_reference",
+      "content_depth": "HIGH",
+      "content_type_conflict": false
+    },
+    "priority": "LOW",
+    "indexability_priority": 0.0,
+    "severity_weight": 0.52,
+    "auto_severity": "LOW",
+    "recommendation": "Keep indexed"
+  }
+]

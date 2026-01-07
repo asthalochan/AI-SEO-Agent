@@ -1,0 +1,16 @@
+{
+  "total_pages_analyzed": 5,
+  "quality_distribution": {
+    "D": 2,
+    "C": 2,
+    "B": 1
+  },
+  "ranking_potential_distribution": {
+    "LOW": 2,
+    "MEDIUM": 3
+  },
+  "top_optimization_opportunities": [
+    "Strengthen 1 weak cluster leaders",
+    "Add internal links to 1 orphaned quality pages"
+  ]
+}

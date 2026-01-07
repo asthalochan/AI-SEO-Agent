@@ -10,6 +10,7 @@ from typing import Dict, List, Set, Optional
 from dataclasses import dataclass, asdict
 from pathlib import Path
 from collections import defaultdict
+from urllib.parse import urlparse
 import logging
 
 logging.basicConfig(level=logging.INFO)

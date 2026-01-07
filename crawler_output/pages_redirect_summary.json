@@ -1,0 +1,16 @@
+{
+  "total_urls": 10,
+  "redirecting_urls": 0,
+  "redirect_efficiency_score": 1.0,
+  "chains": 0,
+  "loops": 0,
+  "internal_links_to_redirects": 0,
+  "canonical_conflicts": 0,
+  "canonical_vs_redirect_breakdown": {
+    "ok": 10,
+    "canonical_to_redirect": 0,
+    "redirect_to_canonical": 0
+  },
+  "total_issues": 0,
+  "issues_by_severity": {}
+}

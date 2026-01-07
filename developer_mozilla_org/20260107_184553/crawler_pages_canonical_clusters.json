@@ -1,0 +1,317 @@
+{
+  "clusters": [
+    {
+      "cluster_id": "4b2189947724",
+      "canonical_leader": "https://developer.mozilla.org/",
+      "declared_canonical": "https://developer.mozilla.org/en-US/",
+      "initial_canonical": "https://developer.mozilla.org/en-US/",
+      "optimal_canonical": "https://developer.mozilla.org/",
+      "members": [
+        {
+          "url": "https://developer.mozilla.org/",
+          "normalized_url": "https://developer.mozilla.org/",
+          "link_score": 1.0,
+          "content_inlinks": 0,
+          "is_indexable": true,
+          "status_code": 200,
+          "declared_canonical": "https://developer.mozilla.org/en-US/",
+          "link_depth": 0
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US",
+          "normalized_url": "https://developer.mozilla.org/en-US",
+          "link_score": 1.0,
+          "content_inlinks": 0,
+          "is_indexable": true,
+          "status_code": 200,
+          "declared_canonical": "https://developer.mozilla.org/en-US/",
+          "link_depth": 1
+        }
+      ],
+      "discovered_urls": [],
+      "authority": {
+        "cluster_total": 2.0,
+        "leader_share": 0.5,
+        "leakage": 0.5
+      },
+      "issues": [
+        "WRONG_CANONICAL",
+        "AUTHORITY_LEAKAGE",
+        "SOFT_DUPLICATE_CONTENT"
+      ],
+      "canonical_chain": [
+        "https://developer.mozilla.org/",
+        "https://developer.mozilla.org/en-US/"
+      ],
+      "canonical_alignment": {
+        "declared": "https://developer.mozilla.org/",
+        "most_linked": "https://developer.mozilla.org/",
+        "shallowest": "https://developer.mozilla.org/",
+        "is_optimal": true,
+        "alignment_score": 1.0
+      },
+      "internal_link_alignment": {},
+      "variant_key": "https://developer.mozilla.org/en-us",
+      "chain_depth": 1,
+      "canonical_intent_confidence": 0.85,
+      "confidence_level": "high",
+      "confidence_explanation": "High confidence: 2 of 2 pages agree on canonical",
+      "crawl_coverage_limitation": false,
+      "content_fingerprint": "5cec615d",
+      "soft_duplicates": [
+        "https://developer.mozilla.org/"
+      ],
+      "soft_duplicate_confidence": "high",
+      "fix_priority": 4,
+      "severity": "high",
+      "seo_impact": [
+        "ranking"
+      ],
+      "recommended_action": "Canonical mismatch: Site declares 'https://developer.mozilla.org/en-US/' but optimal is 'https://developer.mozilla.org/'. Update canonical tags on 2 pages to point to: https://developer.mozilla.org/"
+    },
+    {
+      "cluster_id": "3780fe697bcd",
+      "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+      "declared_canonical": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+      "initial_canonical": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+      "optimal_canonical": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+      "members": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+          "normalized_url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+          "link_score": 1.0,
+          "content_inlinks": 0,
+          "is_indexable": true,
+          "status_code": 200,
+          "declared_canonical": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+          "link_depth": 1
+        }
+      ],
+      "discovered_urls": [],
+      "authority": {
+        "cluster_total": 1.0,
+        "leader_share": 1.0,
+        "leakage": 0.0
+      },
+      "issues": [],
+      "canonical_chain": [],
+      "canonical_alignment": {
+        "declared": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "most_linked": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "shallowest": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "is_optimal": true,
+        "alignment_score": 1.0
+      },
+      "internal_link_alignment": {},
+      "variant_key": "https://developer.mozilla.org/en-us/docs/web/html",
+      "chain_depth": 0,
+      "canonical_intent_confidence": 1.0,
+      "confidence_level": "high",
+      "confidence_explanation": "High confidence: single-page cluster with no conflicts",
+      "crawl_coverage_limitation": true,
+      "content_fingerprint": "6ed417d9",
+      "soft_duplicates": [],
+      "soft_duplicate_confidence": "low",
+      "fix_priority": 1,
+      "severity": "low",
+      "seo_impact": [],
+      "recommended_action": "No action needed"
+    },
+    {
+      "cluster_id": "70c546a33860",
+      "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+      "declared_canonical": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+      "initial_canonical": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+      "optimal_canonical": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+      "members": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+          "normalized_url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+          "link_score": 1.0,
+          "content_inlinks": 0,
+          "is_indexable": true,
+          "status_code": 200,
+          "declared_canonical": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+          "link_depth": 1
+        }
+      ],
+      "discovered_urls": [],
+      "authority": {
+        "cluster_total": 1.0,
+        "leader_share": 1.0,
+        "leakage": 0.0
+      },
+      "issues": [],
+      "canonical_chain": [],
+      "canonical_alignment": {
+        "declared": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+        "most_linked": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+        "shallowest": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+        "is_optimal": true,
+        "alignment_score": 1.0
+      },
+      "internal_link_alignment": {},
+      "variant_key": "https://developer.mozilla.org/en-us/docs/web/html/reference/elements",
+      "chain_depth": 0,
+      "canonical_intent_confidence": 1.0,
+      "confidence_level": "high",
+      "confidence_explanation": "High confidence: single-page cluster with no conflicts",
+      "crawl_coverage_limitation": true,
+      "content_fingerprint": "1f8e6170",
+      "soft_duplicates": [],
+      "soft_duplicate_confidence": "low",
+      "fix_priority": 1,
+      "severity": "low",
+      "seo_impact": [],
+      "recommended_action": "No action needed"
+    },
+    {
+      "cluster_id": "2d641698cb50",
+      "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+      "declared_canonical": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+      "initial_canonical": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+      "optimal_canonical": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+      "members": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+          "normalized_url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+          "link_score": 1.0,
+          "content_inlinks": 0,
+          "is_indexable": true,
+          "status_code": 200,
+          "declared_canonical": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+          "link_depth": 1
+        }
+      ],
+      "discovered_urls": [],
+      "authority": {
+        "cluster_total": 1.0,
+        "leader_share": 1.0,
+        "leakage": 0.0
+      },
+      "issues": [],
+      "canonical_chain": [],
+      "canonical_alignment": {
+        "declared": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+        "most_linked": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+        "shallowest": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+        "is_optimal": true,
+        "alignment_score": 1.0
+      },
+      "internal_link_alignment": {},
+      "variant_key": "https://developer.mozilla.org/en-us/docs/web/html/reference/global_attributes",
+      "chain_depth": 0,
+      "canonical_intent_confidence": 1.0,
+      "confidence_level": "high",
+      "confidence_explanation": "High confidence: single-page cluster with no conflicts",
+      "crawl_coverage_limitation": true,
+      "content_fingerprint": "0dcb3cae",
+      "soft_duplicates": [],
+      "soft_duplicate_confidence": "low",
+      "fix_priority": 1,
+      "severity": "low",
+      "seo_impact": [],
+      "recommended_action": "No action needed"
+    }
+  ],
+  "summary": {
+    "total_clusters": 4,
+    "clusters_with_issues": 1,
+    "authority_leakage_clusters": 1,
+    "single_url_clusters": 3,
+    "multi_url_clusters": 1,
+    "issue_breakdown": {
+      "WRONG_CANONICAL": 1,
+      "AUTHORITY_LEAKAGE": 1,
+      "SOFT_DUPLICATE_CONTENT": 1
+    }
+  },
+  "analyzer_metadata": {
+    "version": "1.0.0",
+    "enterprise_features": {
+      "internal_link_alignment": {
+        "description": "Analyzes internal links pointing to non-canonical URLs",
+        "metrics": [
+          "canonical_inlinks",
+          "non_canonical_inlinks",
+          "misalignment_ratio"
+        ],
+        "impact": "Identifies wasted authority from misaligned internal links"
+      },
+      "soft_duplicate_detection": {
+        "description": "Detects content duplicates using title+H1 fingerprinting",
+        "method": "MD5 hash of title|H1",
+        "impact": "Identifies parameter-based or soft duplicates"
+      },
+      "cross_cluster_conflicts": {
+        "description": "Detects multiple clusters pointing to same canonical",
+        "flag": "DUPLICATE_CANONICAL_TARGET",
+        "impact": "Catches pagination, language, and parameter canonical bugs"
+      },
+      "redirect_aware_logic": {
+        "status": "planned",
+        "description": "Canonical → redirect chain conflict detection",
+        "requires": "HTTP redirect graph from crawler"
+      },
+      "search_console_alignment": {
+        "status": "planned",
+        "description": "Compare declared vs calculated vs Google-chosen canonical",
+        "requires": "Google Search Console API integration"
+      }
+    },
+    "refinements": {
+      "significant_parameters": {
+        "description": "Content-significant parameters are preserved in variant keys",
+        "parameters": [
+          "p",
+          "page",
+          "category",
+          "language",
+          "cat",
+          "lang",
+          "locale",
+          "sort",
+          "filter",
+          "view",
+          "section",
+          "product_id",
+          "item_id",
+          "id"
+        ],
+        "impact": "Better clustering for filtered/categorized content"
+      },
+      "external_canonical_detection": {
+        "description": "Detects and flags canonicals pointing to external domains",
+        "flag": "EXTERNAL_CANONICAL_TARGET",
+        "impact": "Identifies syndicated content or misconfigured canonicals"
+      },
+      "redirect_chain_integration": {
+        "description": "Redirect chains are not currently integrated",
+        "status": "planned",
+        "requires": "Redirect Resolution Engine (separate module)",
+        "impact": "Future enhancement for complete URL consolidation analysis"
+      }
+    },
+    "limitations": {
+      "non_crawled_variants": {
+        "description": "Cannot detect URL variants that are not internally linked or declared as canonical",
+        "requires": "Server log files or Google Search Console data",
+        "impact": "May miss externally-linked variants or orphaned pages"
+      },
+      "canonical_intent_confidence": {
+        "description": "Intent confidence is heuristic based on crawl data only",
+        "requires": "Google indexation data, impressions, and ranking signals for perfect accuracy",
+        "impact": "Directionally correct but not Google-perfect"
+      }
+    },
+    "data_sources": [
+      "internal_crawl",
+      "link_graph"
+    ],
+    "recommended_supplements": [
+      "google_search_console",
+      "server_logs",
+      "analytics"
+    ]
+  }
+}

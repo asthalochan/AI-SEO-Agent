@@ -1,0 +1,22 @@
+{
+  "indexability": {
+    "before": {
+      "indexable": 5
+    },
+    "after": {
+      "indexable": 5
+    },
+    "delta": 0
+  },
+  "priority": {
+    "avg_score_delta": 0.0,
+    "high_priority_pages_delta": 0
+  },
+  "content_quality": {
+    "avg_quality_delta": 0.0,
+    "pages_analyzed": 5
+  },
+  "canonical": {
+    "cluster_leaders_delta": 0
+  }
+}

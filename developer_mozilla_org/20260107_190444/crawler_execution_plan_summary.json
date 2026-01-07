@@ -1,0 +1,15 @@
+{
+  "total_tasks": 5,
+  "by_owner": {
+    "Engineering": 4,
+    "Content": 1
+  },
+  "by_sprint": {
+    "Sprint 2": 2,
+    "Backlog": 3
+  },
+  "estimated_total_time": {
+    "Engineering": "26.0h",
+    "Content": "16.5h"
+  }
+}

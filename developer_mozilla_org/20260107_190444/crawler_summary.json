@@ -1,0 +1,52 @@
+{
+  "domain": "https://developer.mozilla.org",
+  "crawl_started": "20260107_133507",
+  "duration_seconds": 23.43,
+  "pages_crawled": 5,
+  "errors": 0,
+  "robots_blocked_count": 0,
+  "pages_file": "developer_mozilla_org\\20260107_190444\\crawler_pages.json",
+  "errors_file": "developer_mozilla_org\\20260107_190444\\crawler_errors.json",
+  "crawl_summary": {
+    "total_pages": 5,
+    "indexable_pages": 5,
+    "seo_eligible_pages": 2,
+    "content_pages": 3,
+    "non_indexable_pages": 0,
+    "canonical_non_self": 1,
+    "canonical_breakdown": {
+      "self": 4,
+      "consolidation": 1,
+      "issue": 0,
+      "missing": 0,
+      "unknown": 0
+    },
+    "pages_by_type": {
+      "content": 3,
+      "auth": 0,
+      "legal": 0,
+      "error": 0,
+      "utility": 0,
+      "docs_index": 0,
+      "api_reference": 2,
+      "glossary": 0
+    },
+    "pages_by_indexability": {
+      "indexable": 5,
+      "seo_eligible": 2,
+      "blocked_by_robots": 0,
+      "noindex": 0,
+      "thin_content": 2,
+      "thin_with_exception": 2,
+      "with_query_params": 0
+    }
+  },
+  "statistics": {
+    "avg_word_count_raw": 2380.6,
+    "avg_word_count_main": 1567.8,
+    "pages_with_h1": 5,
+    "pages_with_meta_desc": 5,
+    "total_internal_links": 1375,
+    "indexable_pages": 5
+  }
+}

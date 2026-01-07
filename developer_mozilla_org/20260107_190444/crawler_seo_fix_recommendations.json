@@ -1,0 +1,158 @@
+[
+  {
+    "url": "https://developer.mozilla.org/",
+    "priority_tier": "LOW",
+    "fix_plan": [
+      {
+        "issue_code": "CANONICAL_REDIRECT",
+        "issue": "Canonical URL points to multi-hop redirect chain",
+        "fix": "Update canonical to final HTTPS resolved URL",
+        "effort": "LOW",
+        "source": "canonical_clusters",
+        "severity": "HIGH",
+        "impact": "LOW",
+        "fix_score": 0.3,
+        "fix_priority": "HIGH",
+        "quick_win": false
+      },
+      {
+        "issue_code": "THIN_CONTENT",
+        "issue": "Article has only 41 words (Grade D)",
+        "fix": "Expand content to 800+ words",
+        "effort": "HIGH",
+        "source": "content_quality",
+        "impact": "LOW",
+        "fix_score": 0.1,
+        "fix_priority": "MEDIUM",
+        "quick_win": false
+      },
+      {
+        "issue_code": "WEAK_LEADER",
+        "issue": "Cluster leader has low quality (Grade D)",
+        "fix": "Strengthen content or merge cluster",
+        "effort": "HIGH",
+        "source": "content_quality",
+        "impact": "LOW",
+        "fix_score": 0.1,
+        "fix_priority": "MEDIUM",
+        "quick_win": false
+      }
+    ],
+    "estimated_time_minutes": 125,
+    "confidence": 0.58
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US",
+    "priority_tier": "LOW",
+    "fix_plan": [
+      {
+        "issue_code": "CANONICAL_REDIRECT",
+        "issue": "Canonical URL points to multi-hop redirect chain",
+        "fix": "Update canonical to final HTTPS resolved URL",
+        "effort": "LOW",
+        "source": "canonical_clusters",
+        "severity": "HIGH",
+        "impact": "LOW",
+        "fix_score": 0.3,
+        "fix_priority": "HIGH",
+        "quick_win": false
+      },
+      {
+        "issue_code": "CANONICAL_CONSOLIDATE",
+        "issue": "Weak page in cluster of 2 pages",
+        "fix": "Consolidate content to cluster leader",
+        "effort": "HIGH",
+        "source": "canonical_clusters",
+        "severity": "MEDIUM",
+        "impact": "LOW",
+        "fix_score": 0.1,
+        "fix_priority": "MEDIUM",
+        "quick_win": false
+      },
+      {
+        "issue_code": "THIN_CONTENT",
+        "issue": "Article has only 41 words (Grade D)",
+        "fix": "Expand content to 800+ words",
+        "effort": "HIGH",
+        "source": "content_quality",
+        "impact": "LOW",
+        "fix_score": 0.1,
+        "fix_priority": "MEDIUM",
+        "quick_win": false
+      }
+    ],
+    "estimated_time_minutes": 125,
+    "confidence": 0.58
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "priority_tier": "LOW",
+    "fix_plan": [
+      {
+        "issue_code": "CANONICAL_REDIRECT",
+        "issue": "Canonical URL points to multi-hop redirect chain",
+        "fix": "Update canonical to final HTTPS resolved URL",
+        "effort": "LOW",
+        "source": "canonical_clusters",
+        "severity": "HIGH",
+        "impact": "LOW",
+        "fix_score": 0.3,
+        "fix_priority": "HIGH",
+        "quick_win": false
+      },
+      {
+        "issue_code": "CONTENT_EXPANSION",
+        "issue": "Content needs expansion",
+        "fix": "Expand content to 1200+ words",
+        "effort": "HIGH",
+        "source": "content_quality",
+        "impact": "LOW",
+        "fix_score": 0.1,
+        "fix_priority": "MEDIUM",
+        "quick_win": false
+      }
+    ],
+    "estimated_time_minutes": 65,
+    "confidence": 0.5
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+    "priority_tier": "MEDIUM",
+    "fix_plan": [
+      {
+        "issue_code": "CANONICAL_REDIRECT",
+        "issue": "Canonical URL points to multi-hop redirect chain",
+        "fix": "Update canonical to final HTTPS resolved URL",
+        "effort": "LOW",
+        "source": "canonical_clusters",
+        "severity": "HIGH",
+        "impact": "LOW",
+        "fix_score": 1.2,
+        "fix_priority": "HIGH",
+        "quick_win": false
+      }
+    ],
+    "estimated_time_minutes": 5,
+    "confidence": 0.43
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+    "priority_tier": "MEDIUM",
+    "fix_plan": [
+      {
+        "issue_code": "CANONICAL_REDIRECT",
+        "issue": "Canonical URL points to multi-hop redirect chain",
+        "fix": "Update canonical to final HTTPS resolved URL",
+        "effort": "LOW",
+        "source": "canonical_clusters",
+        "severity": "HIGH",
+        "impact": "LOW",
+        "fix_score": 1.2,
+        "fix_priority": "HIGH",
+        "quick_win": false
+      }
+    ],
+    "estimated_time_minutes": 5,
+    "confidence": 0.43
+  }
+]

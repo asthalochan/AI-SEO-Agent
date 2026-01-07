@@ -1,0 +1,107 @@
+[
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+    "before": {
+      "indexable": true,
+      "priority_score": 0.422,
+      "priority_tier": "MEDIUM",
+      "quality_score": 0.71,
+      "quality_grade": "B",
+      "is_cluster_leader": true
+    },
+    "after": {
+      "indexable": true,
+      "priority_score": 0.422,
+      "priority_tier": "MEDIUM",
+      "quality_score": 0.71,
+      "quality_grade": "B",
+      "is_cluster_leader": true
+    },
+    "impact_score": 0.0,
+    "status": "UNCHANGED"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+    "before": {
+      "indexable": true,
+      "priority_score": 0.408,
+      "priority_tier": "MEDIUM",
+      "quality_score": 0.65,
+      "quality_grade": "C",
+      "is_cluster_leader": true
+    },
+    "after": {
+      "indexable": true,
+      "priority_score": 0.408,
+      "priority_tier": "MEDIUM",
+      "quality_score": 0.65,
+      "quality_grade": "C",
+      "is_cluster_leader": true
+    },
+    "impact_score": 0.0,
+    "status": "UNCHANGED"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US",
+    "before": {
+      "indexable": true,
+      "priority_score": 0.232,
+      "priority_tier": "LOW",
+      "quality_score": 0.27,
+      "quality_grade": "D",
+      "is_cluster_leader": true
+    },
+    "after": {
+      "indexable": true,
+      "priority_score": 0.232,
+      "priority_tier": "LOW",
+      "quality_score": 0.27,
+      "quality_grade": "D",
+      "is_cluster_leader": true
+    },
+    "impact_score": 0.0,
+    "status": "UNCHANGED"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "before": {
+      "indexable": true,
+      "priority_score": 0.398,
+      "priority_tier": "LOW",
+      "quality_score": 0.61,
+      "quality_grade": "C",
+      "is_cluster_leader": true
+    },
+    "after": {
+      "indexable": true,
+      "priority_score": 0.398,
+      "priority_tier": "LOW",
+      "quality_score": 0.61,
+      "quality_grade": "C",
+      "is_cluster_leader": true
+    },
+    "impact_score": 0.0,
+    "status": "UNCHANGED"
+  },
+  {
+    "url": "https://developer.mozilla.org/",
+    "before": {
+      "indexable": true,
+      "priority_score": 0.265,
+      "priority_tier": "LOW",
+      "quality_score": 0.4,
+      "quality_grade": "D",
+      "is_cluster_leader": true
+    },
+    "after": {
+      "indexable": true,
+      "priority_score": 0.265,
+      "priority_tier": "LOW",
+      "quality_score": 0.4,
+      "quality_grade": "D",
+      "is_cluster_leader": true
+    },
+    "impact_score": 0.0,
+    "status": "UNCHANGED"
+  }
+]

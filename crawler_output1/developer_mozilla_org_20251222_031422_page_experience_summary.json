@@ -1,0 +1,39 @@
+{
+  "total_pages": 100,
+  "data_coverage": {
+    "real_metrics_pages": 0,
+    "estimated_pages": 0,
+    "missing_pages": 100
+  },
+  "experience_status": {
+    "good": 0,
+    "needs_improvement": 0,
+    "poor": 0,
+    "unknown": 100
+  },
+  "good_pages": 0,
+  "needs_improvement": 0,
+  "poor_pages": 0,
+  "unknown_pages": 100,
+  "avg_speed_score": null,
+  "core_web_vitals": {
+    "lcp": {
+      "good": 0,
+      "needs_improvement": 0,
+      "poor": 0,
+      "unknown": 100
+    },
+    "cls": {
+      "good": 0,
+      "needs_improvement": 0,
+      "poor": 0,
+      "unknown": 100
+    },
+    "inp": {
+      "good": 0,
+      "needs_improvement": 0,
+      "poor": 0,
+      "unknown": 100
+    }
+  }
+}

@@ -101,6 +101,9 @@ class PageData:
     crawled_at: str
     url_hash: str
     
+    # NEW: Lightweight Experience Signals (Performance Proxies)
+    performance: Dict[str, Any] = field(default_factory=dict)
+    
     # Fields with defaults (MUST come last)
     original_url: str = ""
     discovered_from: str = ""
@@ -578,6 +581,9 @@ class SEOExtractor:
         link_text_length = sum(len(a.get_text(strip=True)) for a in soup.find_all("a"))
         total_text_length = len(main_content_text) if main_content_text else 1
         link_density = link_text_length / total_text_length if total_text_length > 0 else 0.0
+        
+        # NEW: Lightweight Experience Signals (Performance Proxies)
+        performance_signals = SEOExtractor._extract_performance_signals(html, soup)
 
         return {
             "title": title,
@@ -602,7 +608,8 @@ class SEOExtractor:
             "meta_robots": meta_robots_content,
             "hreflang": hreflang_links,
             "pagination_rel": pagination_rel,
-            "link_density": link_density
+            "link_density": link_density,
+            "performance": performance_signals  # NEW
         }
 
     @staticmethod
@@ -656,6 +663,70 @@ class SEOExtractor:
 
         # Default to content
         return "content"
+    
+    @staticmethod
+    def _extract_performance_signals(html: str, soup: BeautifulSoup) -> Dict[str, Any]:
+        """
+        Extract lightweight performance proxy signals from HTML.
+        
+        These are NOT real Core Web Vitals, but observable signals that correlate
+        with performance and can be extracted cheaply during crawling.
+        
+        Returns:
+            Dict with performance proxy signals
+        """
+        # 1. HTML size (bytes)
+        html_size_bytes = len(html.encode('utf-8'))
+        
+        # 2. Resource counts (from HTML parsing)
+        js_count = len(soup.find_all('script', src=True))
+        css_count = len(soup.find_all('link', rel='stylesheet'))
+        image_count = len(soup.find_all('img'))
+        iframe_count = len(soup.find_all('iframe'))
+        
+        # 3. Inline vs external CSS/JS
+        inline_scripts = soup.find_all('script', src=False)
+        inline_css_tags = soup.find_all('style')
+        
+        inline_js_bytes = sum(len(script.string or '') for script in inline_scripts)
+        inline_css_bytes = sum(len(style.string or '') for style in inline_css_tags)
+        
+        external_js_count = js_count
+        external_css_count = css_count
+        
+        # 4. DOM size (node count)
+        # Count all elements in the DOM
+        dom_nodes_count = len(soup.find_all())
+        
+        # 5. Viewport / mobile hint
+        viewport_meta = soup.find('meta', attrs={'name': 'viewport'})
+        has_viewport_meta = viewport_meta is not None
+        
+        # 6. Images without dimensions (CLS risk)
+        images = soup.find_all('img')
+        images_without_dimensions = sum(
+            1 for img in images 
+            if not (img.get('width') and img.get('height'))
+        )
+        
+        # 7. Total resource count
+        total_resources = js_count + css_count + image_count + iframe_count
+        
+        return {
+            'html_size_bytes': html_size_bytes,
+            'js_count': js_count,
+            'css_count': css_count,
+            'image_count': image_count,
+            'iframe_count': iframe_count,
+            'inline_js_bytes': inline_js_bytes,
+            'inline_css_bytes': inline_css_bytes,
+            'external_js_count': external_js_count,
+            'external_css_count': external_css_count,
+            'dom_nodes_count': dom_nodes_count,
+            'has_viewport_meta': has_viewport_meta,
+            'images_without_dimensions': images_without_dimensions,
+            'total_resources': total_resources
+        }
 
 
 class PageFetcher:
@@ -755,12 +826,14 @@ class EnterpriseCrawler:
         max_pages: int = 200,
         rate_limit: float = 1.0,
         output_dir: str = "crawler_output",
+        base_name: str = None,
         user_agent: str = "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
     ):
         self.max_pages = max_pages
         self.rate_limit = rate_limit
         self.output_dir = Path(output_dir)
-        self.output_dir.mkdir(exist_ok=True)
+        self.output_dir.mkdir(parents=True, exist_ok=True)
+        self.base_name = base_name  # If None, auto-generate from domain+timestamp
         
         self.normalizer = URLNormalizer()
         self.robots_checker = RobotsTxtChecker(user_agent)
@@ -916,7 +989,8 @@ class EnterpriseCrawler:
                     "hreflang": [],
                     "pagination_rel": None,
                     "noindex": False,
-                    "nofollow": False
+                    "nofollow": False,
+                    "performance": {}  # NEW: Empty performance signals
                 }
             
             # Check if URL has query parameters
@@ -1100,7 +1174,8 @@ class EnterpriseCrawler:
                 indexability_reason=indexability_reason,
                 seo_eligible=seo_eligible,
                 crawled_at=datetime.utcnow().isoformat(),
-                url_hash=url_hash
+                url_hash=url_hash,
+                performance=seo_data.get("performance", {})  # NEW: Performance signals
             )
             
             self.results.append(page)
@@ -1132,8 +1207,15 @@ class EnterpriseCrawler:
     
     def _save_results(self, start_url: str, duration: float) -> Dict[str, Any]:
         """Save enhanced crawl results with factual summary (no SEO opinions)"""
-        domain = urlparse(start_url).netloc.replace('.', '_')
+        # Generate timestamp for summary
         timestamp = datetime.utcnow().strftime('%Y%m%d_%H%M%S')
+        
+        # Use custom base_name if provided, otherwise auto-generate
+        if self.base_name:
+            base_name = self.base_name
+        else:
+            domain = urlparse(start_url).netloc.replace('.', '_')
+            base_name = f"{domain}_{timestamp}"
         
         # Calculate factual metrics (crawler observes, doesn't judge)
         indexable_pages = [p for p in self.results if p.indexable]
@@ -1144,7 +1226,7 @@ class EnterpriseCrawler:
         canonical_real_issues = [p for p in self.results if p.canonical_type == "issue"]
         
         # Save pages data
-        pages_file = self.output_dir / f"{domain}_{timestamp}_pages.json"
+        pages_file = self.output_dir / f"{base_name}_pages.json"
         with open(pages_file, 'w', encoding='utf-8') as f:
             json.dump(
                 [page.to_dict() for page in self.results],
@@ -1154,7 +1236,7 @@ class EnterpriseCrawler:
             )
         
         # Save errors
-        errors_file = self.output_dir / f"{domain}_{timestamp}_errors.json"
+        errors_file = self.output_dir / f"{base_name}_errors.json"
         with open(errors_file, 'w', encoding='utf-8') as f:
             json.dump(self.errors, f, indent=2)
         
@@ -1224,7 +1306,7 @@ class EnterpriseCrawler:
         }
         
         # Save summary
-        summary_file = self.output_dir / f"{domain}_{timestamp}_summary.json"
+        summary_file = self.output_dir / f"{base_name}_summary.json"
         with open(summary_file, 'w', encoding='utf-8') as f:
             json.dump(summary, f, indent=2)
         
@@ -1246,11 +1328,31 @@ class EnterpriseCrawler:
 
 # Example usage
 if __name__ == "__main__":
+    print("=" * 70)
+    print("ENTERPRISE SEO CRAWLER")
+    print("=" * 70)
+    print()
+    print("Enter the starting URL to crawl:")
+    print("Example: https://developer.mozilla.org/en-US/")
+    print()
+    start_url = input("Starting URL: ").strip()
+    
+    if not start_url:
+        print("Error: No URL provided")
+        exit(1)
+    
+    print()
+    print("=" * 70)
+    print(f"Starting crawl of: {start_url}")
+    print("=" * 70)
+    print()
+    
     crawler = EnterpriseCrawler(
         max_pages=100,
         rate_limit=1.0,
         output_dir="crawler_output"
     )
     
-    summary = crawler.crawl("https://developer.mozilla.org/en-US/")
+    summary = crawler.crawl(start_url)
+
     print(json.dumps(summary, indent=2))

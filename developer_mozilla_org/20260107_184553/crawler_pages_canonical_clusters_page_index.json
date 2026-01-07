@@ -1,0 +1,55 @@
+{
+  "https://developer.mozilla.org/": {
+    "cluster_id": "4b2189947724",
+    "canonical_leader": "https://developer.mozilla.org/",
+    "is_canonical": true,
+    "issues": [
+      "WRONG_CANONICAL",
+      "AUTHORITY_LEAKAGE",
+      "SOFT_DUPLICATE_CONTENT"
+    ],
+    "severity": "high",
+    "fix_priority": 4,
+    "recommended_action": "Canonical mismatch: Site declares 'https://developer.mozilla.org/en-US/' but optimal is 'https://developer.mozilla.org/'. Update canonical tags on 2 pages to point to: https://developer.mozilla.org/"
+  },
+  "https://developer.mozilla.org/en-US": {
+    "cluster_id": "4b2189947724",
+    "canonical_leader": "https://developer.mozilla.org/",
+    "is_canonical": false,
+    "issues": [
+      "WRONG_CANONICAL",
+      "AUTHORITY_LEAKAGE",
+      "SOFT_DUPLICATE_CONTENT"
+    ],
+    "severity": "high",
+    "fix_priority": 4,
+    "recommended_action": "Canonical mismatch: Site declares 'https://developer.mozilla.org/en-US/' but optimal is 'https://developer.mozilla.org/'. Update canonical tags on 2 pages to point to: https://developer.mozilla.org/"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/HTML": {
+    "cluster_id": "3780fe697bcd",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements": {
+    "cluster_id": "70c546a33860",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  },
+  "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes": {
+    "cluster_id": "2d641698cb50",
+    "canonical_leader": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+    "is_canonical": true,
+    "issues": [],
+    "severity": "low",
+    "fix_priority": 1,
+    "recommended_action": "No action needed"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "total_pages": 5,
+  "priority_distribution": {
+    "LOW": 3,
+    "MEDIUM": 2
+  },
+  "top_opportunity_types": {
+    "internal_links": 5,
+    "content_quality": 2
+  }
+}

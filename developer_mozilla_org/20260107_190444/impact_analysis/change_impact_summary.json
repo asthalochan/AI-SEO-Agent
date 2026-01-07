@@ -1,0 +1,19 @@
+{
+  "snapshots": {
+    "before": "20260107_184553",
+    "after": "20260107_190444"
+  },
+  "overall_status": "NEUTRAL",
+  "pages_compared": 5,
+  "pages_improved": 0,
+  "pages_declined": 0,
+  "pages_unchanged": 5,
+  "metrics_delta": {
+    "indexable_pages": 0,
+    "avg_priority_score": 0.0,
+    "avg_quality_score": 0.0,
+    "canonical_leaders": 0
+  },
+  "confidence_score": 0.05,
+  "generated_at": "2026-01-07T19:48:32.401187"
+}

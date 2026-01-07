@@ -1,0 +1,20 @@
+[
+  {
+    "issue_id": "CQ_001",
+    "url": "https://developer.mozilla.org/",
+    "issue_type": "weak_cluster_leader",
+    "severity": "critical",
+    "impact": "indexation_loss",
+    "details": "Cluster leader (size: 2) has quality score 0.4",
+    "recommended_action": "Improve content quality or reassign cluster leadership"
+  },
+  {
+    "issue_id": "CQ_002",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+    "issue_type": "orphaned_quality_content",
+    "severity": "medium",
+    "impact": "low_ranking_potential",
+    "details": "High-quality content (score: 0.71) has no internal links",
+    "recommended_action": "Add internal links from relevant hub pages"
+  }
+]

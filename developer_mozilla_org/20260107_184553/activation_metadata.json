@@ -1,0 +1,24 @@
+{
+  "domain": "https://developer.mozilla.org",
+  "domain_name": "developer_mozilla_org",
+  "timestamp": "20260107_184553",
+  "crawl_limit": 5,
+  "output_directory": "developer_mozilla_org\\20260107_184553",
+  "started_at": "2026-01-07T18:45:53.317241",
+  "completed_at": "2026-01-07T18:46:31.920365",
+  "execution_time_seconds": 38.603124,
+  "modules_completed": [
+    "crawler",
+    "redirect_resolver",
+    "link_graph",
+    "canonical_clusters",
+    "indexability_analyzer",
+    "content_quality_analyzer",
+    "page_priority_engine",
+    "page_experience_analyzer",
+    "seo_fix_engine",
+    "execution_plan_generator"
+  ],
+  "total_modules": 10,
+  "system_version": "1.0-production"
+}

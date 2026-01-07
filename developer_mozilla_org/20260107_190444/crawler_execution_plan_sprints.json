@@ -1,0 +1,17 @@
+{
+  "Sprint 2": {
+    "theme": "Canonical Cleanup",
+    "tasks": [
+      "TASK_004: CANONICAL_REDIRECT",
+      "TASK_005: CANONICAL_REDIRECT"
+    ]
+  },
+  "Backlog": {
+    "theme": "Canonical Cleanup",
+    "tasks": [
+      "TASK_003: CANONICAL_REDIRECT, CONTENT_EXPANSION",
+      "TASK_001: CANONICAL_REDIRECT, THIN_CONTENT (+1 more)",
+      "TASK_002: CANONICAL_CONSOLIDATE, CANONICAL_REDIRECT (+1 more)"
+    ]
+  }
+}
